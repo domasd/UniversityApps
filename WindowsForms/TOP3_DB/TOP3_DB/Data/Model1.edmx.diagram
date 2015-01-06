@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d122c043a70a47c39e6347fcac21355c" Name="Diagram1">
+        <EntityTypeShape EntityType="TestDbModel.Abonementas" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestDbModel.Gamintojas" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestDbModel.Klientas" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestDbModel.Treneris" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestDbModel.Treniruoklis" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestDbModel.TreniruoklisIstorija" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestDbModel.Uzsakymai" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="TestDbModel.FK_AbonementasId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestDbModel.FK_GamintojoPavadinimas" ManuallyRouted="false" />
+        <AssociationConnector Association="TestDbModel.FK_KlientasId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestDbModel.FK_KlientoId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestDbModel.FK_TrenerioAsmensKodas" ManuallyRouted="false" />
+        <AssociationConnector Association="TestDbModel.FK_TreniruoklisId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

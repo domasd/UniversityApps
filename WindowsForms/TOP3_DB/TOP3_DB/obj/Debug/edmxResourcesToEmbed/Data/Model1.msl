@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TestDbModelStoreContainer" CdmEntityContainer="TestDbEntities1">
+    <EntitySetMapping Name="Abonementas">
+      <EntityTypeMapping TypeName="IsTypeOf(TestDbModel.Abonementas)">
+        <MappingFragment StoreEntitySet="Abonementas">
+          <ScalarProperty Name="Kaina" ColumnName="Kaina" />
+          <ScalarProperty Name="Pavadinimas" ColumnName="Pavadinimas" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Aprasymas" ColumnName="Aprasymas" />
+          <ScalarProperty Name="Trukme" ColumnName="Trukme" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gamintojas">
+      <EntityTypeMapping TypeName="TestDbModel.Gamintojas">
+        <MappingFragment StoreEntitySet="Gamintojas">
+          <ScalarProperty Name="Pavadinimas" ColumnName="Pavadinimas" />
+          <ScalarProperty Name="Adresas" ColumnName="Adresas" />
+          <ScalarProperty Name="TelNr" ColumnName="TelNr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Klientas">
+      <EntityTypeMapping TypeName="TestDbModel.Klientas">
+        <MappingFragment StoreEntitySet="Klientas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Adresas" ColumnName="Adresas" />
+          <ScalarProperty Name="GimimoData" ColumnName="GimimoData" />
+          <ScalarProperty Name="Vardas" ColumnName="Vardas" />
+          <ScalarProperty Name="Svoris" ColumnName="Svoris" />
+          <ScalarProperty Name="TrenerioId" ColumnName="TrenerioId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Treneris">
+      <EntityTypeMapping TypeName="TestDbModel.Treneris">
+        <MappingFragment StoreEntitySet="Treneris">
+          <ScalarProperty Name="AsmensKodas" ColumnName="AsmensKodas" />
+          <ScalarProperty Name="Adresas" ColumnName="Adresas" />
+          <ScalarProperty Name="GimimoData" ColumnName="GimimoData" />
+          <ScalarProperty Name="Vardas" ColumnName="Vardas" />
+          <ScalarProperty Name="Pavarde" ColumnName="Pavarde" />
+          <ScalarProperty Name="Specialybe" ColumnName="Specialybe" />
+          <ScalarProperty Name="Patirtis" ColumnName="Patirtis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Treniruoklis">
+      <EntityTypeMapping TypeName="TestDbModel.Treniruoklis">
+        <MappingFragment StoreEntitySet="Treniruoklis">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Pavadinimas" ColumnName="Pavadinimas" />
+          <ScalarProperty Name="EksplPradziosData" ColumnName="EksplPradziosData" />
+          <ScalarProperty Name="RaumenuGrupe" ColumnName="RaumenuGrupe" />
+          <ScalarProperty Name="GamintojoPavadinimas" ColumnName="GamintojoPavadinimas" />
+          <ScalarProperty Name="PagaminimoData" ColumnName="PagaminimoData" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TreniruoklisIstorija">
+      <EntityTypeMapping TypeName="TestDbModel.TreniruoklisIstorija">
+        <MappingFragment StoreEntitySet="TreniruoklisIstorija">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="KlientoId" ColumnName="KlientoId" />
+          <ScalarProperty Name="TreniruoklioId" ColumnName="TreniruoklioId" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Uzsakymai">
+      <EntityTypeMapping TypeName="TestDbModel.Uzsakymai">
+        <MappingFragment StoreEntitySet="Uzsakymai">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="KlientoId" ColumnName="KlientoId" />
+          <ScalarProperty Name="AbonementoId" ColumnName="AbonementoId" />
+          <ScalarProperty Name="PirkimoData" ColumnName="PirkimoData" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

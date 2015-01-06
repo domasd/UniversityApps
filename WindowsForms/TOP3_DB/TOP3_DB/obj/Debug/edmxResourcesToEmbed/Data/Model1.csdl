@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Abonementas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Pavadinimas" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Trukme" Type="Single" />
+    <Property Name="Aprasymas" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Uzsakymai" Relationship="Self.FK_AbonementasId" FromRole="Abonementas" ToRole="Uzsakymai" />
+    <Property Name="Kaina" Type="Decimal" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Gamintojas">
+    <Key>
+      <PropertyRef Name="Pavadinimas" />
+    </Key>
+    <Property Name="Pavadinimas" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Adresas" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TelNr" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Treniruoklis" Relationship="Self.FK_GamintojoPavadinimas" FromRole="Gamintojas" ToRole="Treniruoklis" />
+  </EntityType>
+  <EntityType Name="Klientas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Adresas" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="GimimoData" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Vardas" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Svoris" Type="Double" />
+    <Property Name="TrenerioId" Type="Int32" />
+    <NavigationProperty Name="TreniruoklisIstorija" Relationship="Self.FK_KlientasId" FromRole="Klientas" ToRole="TreniruoklisIstorija" />
+    <NavigationProperty Name="Uzsakymai" Relationship="Self.FK_KlientoId" FromRole="Klientas" ToRole="Uzsakymai" />
+    <NavigationProperty Name="Treneris" Relationship="Self.FK_TrenerioAsmensKodas" FromRole="Klientas" ToRole="Treneris" />
+  </EntityType>
+  <EntityType Name="Treneris">
+    <Key>
+      <PropertyRef Name="AsmensKodas" />
+    </Key>
+    <Property Name="AsmensKodas" Type="Int32" Nullable="false" />
+    <Property Name="Adresas" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="GimimoData" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Vardas" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Pavarde" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Specialybe" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Patirtis" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Klientas" Relationship="Self.FK_TrenerioAsmensKodas" FromRole="Treneris" ToRole="Klientas" />
+  </EntityType>
+  <EntityType Name="Treniruoklis">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Pavadinimas" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="EksplPradziosData" Type="DateTime" Precision="3" />
+    <Property Name="RaumenuGrupe" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="GamintojoPavadinimas" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PagaminimoData" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Gamintojas" Relationship="Self.FK_GamintojoPavadinimas" FromRole="Treniruoklis" ToRole="Gamintojas" />
+    <NavigationProperty Name="TreniruoklisIstorija" Relationship="Self.FK_TreniruoklisId" FromRole="Treniruoklis" ToRole="TreniruoklisIstorija" />
+  </EntityType>
+  <EntityType Name="TreniruoklisIstorija">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KlientoId" Type="Int32" Nullable="false" />
+    <Property Name="TreniruoklioId" Type="Int32" Nullable="false" />
+    <Property Name="Data" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Klientas" Relationship="Self.FK_KlientasId" FromRole="TreniruoklisIstorija" ToRole="Klientas" />
+    <NavigationProperty Name="Treniruoklis" Relationship="Self.FK_TreniruoklisId" FromRole="TreniruoklisIstorija" ToRole="Treniruoklis" />
+  </EntityType>
+  <EntityType Name="Uzsakymai">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KlientoId" Type="Int32" Nullable="false" />
+    <Property Name="AbonementoId" Type="Int32" Nullable="false" />
+    <Property Name="PirkimoData" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Abonementas" Relationship="Self.FK_AbonementasId" FromRole="Uzsakymai" ToRole="Abonementas" />
+    <NavigationProperty Name="Klientas" Relationship="Self.FK_KlientoId" FromRole="Uzsakymai" ToRole="Klientas" />
+  </EntityType>
+  <Association Name="FK_AbonementasId">
+    <End Role="Abonementas" Type="Self.Abonementas" Multiplicity="1" />
+    <End Role="Uzsakymai" Type="Self.Uzsakymai" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Abonementas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Uzsakymai">
+        <PropertyRef Name="AbonementoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GamintojoPavadinimas">
+    <End Role="Gamintojas" Type="Self.Gamintojas" Multiplicity="0..1" />
+    <End Role="Treniruoklis" Type="Self.Treniruoklis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gamintojas">
+        <PropertyRef Name="Pavadinimas" />
+      </Principal>
+      <Dependent Role="Treniruoklis">
+        <PropertyRef Name="GamintojoPavadinimas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KlientasId">
+    <End Role="Klientas" Type="Self.Klientas" Multiplicity="1" />
+    <End Role="TreniruoklisIstorija" Type="Self.TreniruoklisIstorija" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klientas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TreniruoklisIstorija">
+        <PropertyRef Name="KlientoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KlientoId">
+    <End Role="Klientas" Type="Self.Klientas" Multiplicity="1" />
+    <End Role="Uzsakymai" Type="Self.Uzsakymai" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klientas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Uzsakymai">
+        <PropertyRef Name="KlientoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TrenerioAsmensKodas">
+    <End Role="Treneris" Type="Self.Treneris" Multiplicity="0..1" />
+    <End Role="Klientas" Type="Self.Klientas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Treneris">
+        <PropertyRef Name="AsmensKodas" />
+      </Principal>
+      <Dependent Role="Klientas">
+        <PropertyRef Name="TrenerioId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TreniruoklisId">
+    <End Role="Treniruoklis" Type="Self.Treniruoklis" Multiplicity="1" />
+    <End Role="TreniruoklisIstorija" Type="Self.TreniruoklisIstorija" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Treniruoklis">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TreniruoklisIstorija">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TestDbEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Abonementas" EntityType="Self.Abonementas" />
+    <EntitySet Name="Gamintojas" EntityType="Self.Gamintojas" />
+    <EntitySet Name="Klientas" EntityType="Self.Klientas" />
+    <EntitySet Name="Treneris" EntityType="Self.Treneris" />
+    <EntitySet Name="Treniruoklis" EntityType="Self.Treniruoklis" />
+    <EntitySet Name="TreniruoklisIstorija" EntityType="Self.TreniruoklisIstorija" />
+    <EntitySet Name="Uzsakymai" EntityType="Self.Uzsakymai" />
+    <AssociationSet Name="FK_AbonementasId" Association="Self.FK_AbonementasId">
+      <End Role="Abonementas" EntitySet="Abonementas" />
+      <End Role="Uzsakymai" EntitySet="Uzsakymai" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GamintojoPavadinimas" Association="Self.FK_GamintojoPavadinimas">
+      <End Role="Gamintojas" EntitySet="Gamintojas" />
+      <End Role="Treniruoklis" EntitySet="Treniruoklis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KlientasId" Association="Self.FK_KlientasId">
+      <End Role="Klientas" EntitySet="Klientas" />
+      <End Role="TreniruoklisIstorija" EntitySet="TreniruoklisIstorija" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KlientoId" Association="Self.FK_KlientoId">
+      <End Role="Klientas" EntitySet="Klientas" />
+      <End Role="Uzsakymai" EntitySet="Uzsakymai" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TrenerioAsmensKodas" Association="Self.FK_TrenerioAsmensKodas">
+      <End Role="Treneris" EntitySet="Treneris" />
+      <End Role="Klientas" EntitySet="Klientas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TreniruoklisId" Association="Self.FK_TreniruoklisId">
+      <End Role="Treniruoklis" EntitySet="Treniruoklis" />
+      <End Role="TreniruoklisIstorija" EntitySet="TreniruoklisIstorija" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,13 @@
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\KompiuteriuParduotuve\KompiuteriuParduotuve\bin\Debug\KompiuteriųParduotuvė.exe.config
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\KompiuteriuParduotuve\KompiuteriuParduotuve\bin\Debug\KompiuteriųParduotuvė.exe
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\KompiuteriuParduotuve\KompiuteriuParduotuve\bin\Debug\KompiuteriųParduotuvė.pdb
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\KompiuteriuParduotuve\KompiuteriuParduotuve\obj\Debug\Kompiuteriuparduotuve.Properties.Resources.resources
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\KompiuteriuParduotuve\KompiuteriuParduotuve\obj\Debug\Kompiuteriuparduotuve.Resources.Resource.resources
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\KompiuteriuParduotuve\KompiuteriuParduotuve\obj\Debug\Kompiuteriuparduotuve.Resources.ResourceLogeris.resources
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\KompiuteriuParduotuve\KompiuteriuParduotuve\obj\Debug\KompiuteriųParduotuvė.csproj.GenerateResource.Cache
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\KompiuteriuParduotuve\KompiuteriuParduotuve\obj\Debug\KompiuteriųParduotuvė.exe
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\KompiuteriuParduotuve\KompiuteriuParduotuve\obj\Debug\KompiuteriųParduotuvė.pdb
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\KompiuteriuParduotuve\KompiuteriuParduotuve\obj\Debug\KompiuteriųParduotuvė.csprojResolveAssemblyReference.cache
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\KompiuteriuParduotuve\KompiuteriuParduotuve\obj\Debug\Kompiuteriuparduotuve.UI.DetalusElementas.resources
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\KompiuteriuParduotuve\KompiuteriuParduotuve\obj\Debug\Kompiuteriuparduotuve.UI.IkeltiPreke.resources
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\KompiuteriuParduotuve\KompiuteriuParduotuve\obj\Debug\Kompiuteriuparduotuve.UI.Shop.resources

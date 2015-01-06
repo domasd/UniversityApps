@@ -1,0 +1,13 @@
+c:\users\domas\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Aukcionas.csprojResolveAssemblyReference.cache
+c:\users\domas\documents\visual studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Aukcionas.csproj.GenerateResource.Cache
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Aukcionas.Sukurtinauja.resources
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Aukcionas.Aukcionai.resources
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Aukcionas.exe.config
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Aukcionas.Resources.Resource.resources
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Aukcionas.Properties.Resources.resources
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Aukcionas.exe
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Aukcionas.pdb
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Aukcionas.exe
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Aukcionas.pdb
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Aukcionas.DetalusElementas.resources
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Aukcionas.Resources.ResourceLogeris.resources

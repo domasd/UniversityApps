@@ -1,0 +1,16 @@
+c:\users\domas\documents\visual studio 2012\Projects\TOP3_DB\TOP3_DB\bin\Debug\TOP3_DB.exe.config
+c:\users\domas\documents\visual studio 2012\Projects\TOP3_DB\TOP3_DB\bin\Debug\TOP3_DB.exe
+c:\users\domas\documents\visual studio 2012\Projects\TOP3_DB\TOP3_DB\bin\Debug\TOP3_DB.pdb
+c:\users\domas\documents\visual studio 2012\Projects\TOP3_DB\TOP3_DB\obj\Debug\TOP3_DB.csprojResolveAssemblyReference.cache
+c:\users\domas\documents\visual studio 2012\Projects\TOP3_DB\TOP3_DB\obj\Debug\TOP3_DB.Form1.resources
+c:\users\domas\documents\visual studio 2012\Projects\TOP3_DB\TOP3_DB\obj\Debug\TOP3_DB.Properties.Resources.resources
+c:\users\domas\documents\visual studio 2012\Projects\TOP3_DB\TOP3_DB\obj\Debug\TOP3_DB.csproj.GenerateResource.Cache
+c:\users\domas\documents\visual studio 2012\Projects\TOP3_DB\TOP3_DB\obj\Debug\TOP3_DB.exe
+c:\users\domas\documents\visual studio 2012\Projects\TOP3_DB\TOP3_DB\obj\Debug\TOP3_DB.pdb
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\TOP3_DB\TOP3_DB\bin\Debug\Data\TestDb.sdf
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\TOP3_DB\TOP3_DB\bin\Debug\EntityFramework.dll
+C:\Users\Domas\Documents\Visual Studio 2012\Projects\TOP3_DB\TOP3_DB\bin\Debug\EntityFramework.xml
+C:\Users\Domas\documents\visual studio 2012\Projects\TOP3_DB\TOP3_DB\bin\Debug\TOP3_DB.exe.manifest
+C:\Users\Domas\documents\visual studio 2012\Projects\TOP3_DB\TOP3_DB\bin\Debug\TOP3_DB.application
+C:\Users\Domas\documents\visual studio 2012\Projects\TOP3_DB\TOP3_DB\obj\Debug\TOP3_DB.exe.manifest
+C:\Users\Domas\documents\visual studio 2012\Projects\TOP3_DB\TOP3_DB\obj\Debug\TOP3_DB.application
