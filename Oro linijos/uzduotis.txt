@@ -1,0 +1,8 @@
+Duotas lėktuvų skrydžių sąrašas: 
+miestas, miestas, išskridimo laikas, skrydžio trukmė. 
+
+Rasti greičiausio skrydžio iš vieno duoto miesto į kitą duotą miestą maršrutą ir jo laiką 
+
+(pradinis išskridimo laikas yra nesvarbus). 
+
+Numatyti atvejį, kad toks maršrutas neegzistuoja. 

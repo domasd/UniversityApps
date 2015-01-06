@@ -1,0 +1,22 @@
+// Miestas - Miestas Valandos:Minutes Minutes
+Vilnius - Palanga 12:00 60
+Vilnius - Varsuva 13:00 300
+Vilnius - Frankfurtas 14:00 500
+Vilnius - Kievas 15:00 900
+Palanga - Vilnius 10:00 55
+Palanga - Frankfurtas 11:00 660
+Palanga - Maskva 12:30 870
+Frankfurtas - Reikjavikas 20:30 540
+Frankfurtas - Pekinas 17:00 1440
+Frankfurtas - Niujorkas 17:00 1200
+Frankfurtas - Maskva 15:20 420
+Frankfurtas - Berlynas 13:00 40
+Frankfurtas - Londonas 12:30 320
+Frankfurtas - Dublinas 11:50 300
+Frankfurtas - Vilnius 10:00 600
+Kievas - Frankfurtas 14:00 780
+Kievas - Berlynas 15:15 720
+Kievas - Maskva 15:30 300
+Londonas - Vilnius 14:30 420
+Londonas - Stambulas 15:00 600
+Stambulas - Frankfurtas 10:00 500
