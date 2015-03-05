@@ -1,0 +1,10 @@
+PORT = 10101
+//[AuctionTitle] [StartingPrice]
+Kompiuteris 1000
+Saldytuvas 500
+SenaSpinta 100
+TrupinysIsProgramuotojoKlaviaturos 1
+NaujasStalas 77.000000
+Sepetys 5
+GediminoProspektoTrinkele 999
+Test 10000.000000
