@@ -14,4 +14,4 @@ directly from console line and it will be automatically saved. Creation: [Auctio
 Client app starts with a console parameter called IP and PORT. It connects to the indicated server with given port.
 Commands: list - lists all the active auctions with Id's; [AuctionId] [Bid]
 
-Known flaws: it could be a pitfall if to parallel threads will acess Server's save auction to file function.
+Known flaws: it could be a pitfall if two or more parallel threads will acess Server's save auction to file function.
