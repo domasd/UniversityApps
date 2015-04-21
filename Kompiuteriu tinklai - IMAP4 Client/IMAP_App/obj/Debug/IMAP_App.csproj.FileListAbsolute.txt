@@ -1,0 +1,15 @@
+C:\Users\domasd\Documents\Imap client\IMAP_App\IMAP_App\bin\Debug\IMAP_App.exe.config
+C:\Users\domasd\Documents\Imap client\IMAP_App\IMAP_App\obj\Debug\IMAP_App.csprojResolveAssemblyReference.cache
+C:\Users\domasd\Documents\Imap client\IMAP_App\IMAP_App\bin\Debug\IMAP_App.exe
+C:\Users\domasd\Documents\Imap client\IMAP_App\IMAP_App\bin\Debug\IMAP_App.pdb
+C:\Users\domasd\Documents\Imap client\IMAP_App\IMAP_App\obj\Debug\IMAP_App.exe
+C:\Users\domasd\Documents\Imap client\IMAP_App\IMAP_App\obj\Debug\IMAP_App.pdb
+G:\STUDY\Univero programos\2 kursas\Kompiuteriniai tinklai\IMAP4 Klientas\IMAP_App\bin\Debug\IMAP_App.exe.config
+G:\STUDY\Univero programos\2 kursas\Kompiuteriniai tinklai\IMAP4 Klientas\IMAP_App\obj\Debug\IMAP_App.exe
+G:\STUDY\Univero programos\2 kursas\Kompiuteriniai tinklai\IMAP4 Klientas\IMAP_App\obj\Debug\IMAP_App.pdb
+G:\STUDY\Univero programos\2 kursas\Kompiuteriniai tinklai\IMAP4 Klientas\IMAP_App\bin\Debug\IMAP_App.exe
+G:\STUDY\Univero programos\2 kursas\Kompiuteriniai tinklai\IMAP4 Klientas\IMAP_App\bin\Debug\IMAP_App.pdb
+G:\STUDY\Univero programos\2 kursas\Kompiuteriniai tinklai\IMAP4 Klientas\IMAP_App\obj\Debug\IMAP_App.csprojResolveAssemblyReference.cache
+C:\Users\domasd\Documents\UniversityApps\Kompiuteriu tinklai - IMAP4 Client\IMAP_App\bin\Debug\IMAP_App.exe.config
+C:\Users\domasd\Documents\UniversityApps\Kompiuteriu tinklai - IMAP4 Client\IMAP_App\obj\Debug\IMAP_App.exe
+C:\Users\domasd\Documents\UniversityApps\Kompiuteriu tinklai - IMAP4 Client\IMAP_App\obj\Debug\IMAP_App.pdb

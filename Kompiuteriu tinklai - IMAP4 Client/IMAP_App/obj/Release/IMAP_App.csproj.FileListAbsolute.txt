@@ -1,0 +1,5 @@
+C:\Users\domasd\Documents\Imap client\IMAP_App\IMAP_App\bin\Release\IMAP_App.exe.config
+C:\Users\domasd\Documents\Imap client\IMAP_App\IMAP_App\bin\Release\IMAP_App.exe
+C:\Users\domasd\Documents\Imap client\IMAP_App\IMAP_App\bin\Release\IMAP_App.pdb
+C:\Users\domasd\Documents\Imap client\IMAP_App\IMAP_App\obj\Release\IMAP_App.exe
+C:\Users\domasd\Documents\Imap client\IMAP_App\IMAP_App\obj\Release\IMAP_App.pdb
