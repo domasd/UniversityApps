@@ -1,0 +1,51 @@
+Preparing for backup to cloud. Time - 2015-10-14 21:59:57Preparing for backup to cloud. Time - 2015-10-14 22:00:47Backuped to cloud. Time - 2015-10-14 22:01:26Preparing for backup to file storage. Time - 2015-10-14 22:01:28Backuped to file storage. Time - 2015-10-14 22:01:29Preparing for backup to cloud. Time - 2015-10-14 22:05:44Backuped to cloud. Time - 2015-10-14 22:06:28Preparing for backup to file storage. Time - 2015-10-14 22:06:30Backuped to file storage. Time - 2015-10-14 22:06:31Preparing for backup to cloud. Time - 2015-10-14 22:07:36
+Backuped to cloud. Time - 2015-10-14 22:07:58
+Preparing for backup to file storage. Time - 2015-10-14 22:08:02
+Backuped to file storage. Time - 2015-10-14 22:08:03
+Preparing for backup to cloud. Time - 2015-10-14 22:08:32
+Backuped to cloud. Time - 2015-10-14 22:08:35
+Preparing for backup to file storage. Time - 2015-10-14 22:08:35
+Backuped to file storage. Time - 2015-10-14 22:08:36
+----------------App started---------------------
+Preparing for backup to cloud. Time - 2015-10-14 22:09:04
+Backuped to cloud. Time - 2015-10-14 22:09:08
+Preparing for backup to file storage. Time - 2015-10-14 22:09:08
+Backuped to file storage. Time - 2015-10-14 22:09:08
+----------------App started---------------------
+Preparing for backup to cloud. Time - 2015-10-14 22:09:31
+----------------App started---------------------
+Preparing for backup to cloud. Time - 2015-10-14 22:10:22
+----------------App started---------------------
+Preparing for backup to cloud. Time - 2015-10-14 22:11:29
+Backuped to cloud. Time - 2015-10-14 22:11:33
+Preparing for backup to file storage. Time - 2015-10-14 22:11:33
+Backuped to file storage. Time - 2015-10-14 22:11:33
+----------------App started---------------------
+Preparing for backup to cloud from template method app. Time - 2015-10-15 00:17:59
+Backuped to cloud from template method app. Time - 2015-10-15 00:18:02
+Preparing for backup to file storage from template method app. Time - 2015-10-15 00:18:02
+Backuped to file storage from template method app. Time - 2015-10-15 00:18:03
+----------------App started---------------------
+Preparing for backup to cloud from template method app. Time - 2015-10-15 00:18:47
+Backuped to cloud from template method app. Time - 2015-10-15 00:18:51
+Preparing for backup to file storage from template method app. Time - 2015-10-15 00:18:51
+Backuped to file storage from template method app. Time - 2015-10-15 00:18:51
+----------------App started---------------------
+Preparing for backup to cloud from template method app. Time - 2015-10-15 00:19:01
+----------------App started---------------------
+Preparing for backup to cloud from template method app. Time - 2015-10-15 00:22:12
+Backuped to cloud from template method app. Time - 2015-10-15 00:22:30
+Preparing for backup to file storage from template method app. Time - 2015-10-15 00:22:39
+Backuped to file storage from template method app. Time - 2015-10-15 00:22:40
+----------------App started---------------------
+Preparing for backup to cloud from template method app. Time - 2015-10-15 00:41:55
+----------------App started---------------------
+Preparing for backup to cloud from template method app. Time - 2015-10-15 00:42:07
+Backuped to cloud from template method app. Time - 2015-10-15 00:42:10
+Preparing for backup to file storage from template method app. Time - 2015-10-15 00:42:11
+Backuped to file storage from template method app. Time - 2015-10-15 00:42:11
+----------------App started---------------------
+Preparing for backup to cloud from template method app. Time - 2015-10-15 15:30:50
+Backuped to cloud from template method app. Time - 2015-10-15 15:30:53
+Preparing for backup to file storage from template method app. Time - 2015-10-15 15:30:53
+Backuped to file storage from template method app. Time - 2015-10-15 15:30:53
