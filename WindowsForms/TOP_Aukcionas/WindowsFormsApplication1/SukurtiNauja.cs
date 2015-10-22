@@ -10,6 +10,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Aukcionas;
 using KompiuteriuParduotuve;
 
 namespace KompiuteriuParduotuve
@@ -21,7 +22,7 @@ namespace KompiuteriuParduotuve
         public Sukurtinauja()
         {
             InitializeComponent();
-            this.Text = Resources.Resource.ProgramosPavadinimas;
+            this.Text = Aukcionas.Resources.Resource.ProgramosPavadinimas;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -128,12 +129,12 @@ namespace KompiuteriuParduotuve
                 }
                 catch (IOException e1)
                 {
-                    Logeris.EntryLog(Resources.ResourceLogeris.klaida);
+                    Logeris.EntryLog(Aukcionas.Resources.ResourceLogeris.klaida);
                     MessageBox.Show(e1.Message.ToString());
                 }
                 catch (Exception e2)
                 {
-                    Logeris.EntryLog(Resources.ResourceLogeris.klaida);
+                    Logeris.EntryLog(Aukcionas.Resources.ResourceLogeris.klaida);
                    MessageBox.Show(e2.Message.ToString());
                 }
             }
@@ -146,7 +147,7 @@ namespace KompiuteriuParduotuve
 
             if (HasErrors)
             {
-                MessageBox.Show(Resources.Resource.NeteisingiDuomenys);
+                MessageBox.Show(Aukcionas.Resources.Resource.NeteisingiDuomenys);
             }
             else
             {
@@ -155,7 +156,7 @@ namespace KompiuteriuParduotuve
                     || textBox3.Text == ""
                     || trukmeTextBox.Text == "")
                 {
-                    MessageBox.Show(Resources.Resource.TustiLaukai);
+                    MessageBox.Show(Aukcionas.Resources.Resource.TustiLaukai);
                 }
                 else
                 {
@@ -168,11 +169,11 @@ namespace KompiuteriuParduotuve
                         this.Hide();
                         AukcionuFormosInitializeris.Show();
                         AukcionuFormosInitializeris.AddRow(aukcionoElementas);
-                        Logeris.EntryLog(Resources.ResourceLogeris.sukurtasAukcionas + aukcionoElementas.pavadinimas);
+                        Logeris.EntryLog(Aukcionas.Resources.ResourceLogeris.sukurtasAukcionas + aukcionoElementas.pavadinimas);
                     }
                     catch (OverflowException ex)
                     {
-                        MessageBox.Show(Resources.Resource.NeteisingiDuomenys);
+                        MessageBox.Show(Aukcionas.Resources.Resource.NeteisingiDuomenys);
                     }
                     
 

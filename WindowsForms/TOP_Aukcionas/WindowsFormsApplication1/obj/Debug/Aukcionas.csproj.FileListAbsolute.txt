@@ -11,3 +11,16 @@ C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\Wi
 C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Aukcionas.pdb
 C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Aukcionas.DetalusElementas.resources
 C:\Users\Domas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Aukcionas.Resources.ResourceLogeris.resources
+C:\Users\domasd\Documents\UniversityApps\WindowsForms\TOP_Aukcionas\WindowsFormsApplication1\bin\Debug\Aukcionas.exe.config
+C:\Users\domasd\Documents\UniversityApps\WindowsForms\TOP_Aukcionas\WindowsFormsApplication1\obj\Debug\Aukcionas.exe
+C:\Users\domasd\Documents\UniversityApps\WindowsForms\TOP_Aukcionas\WindowsFormsApplication1\obj\Debug\Aukcionas.pdb
+C:\Users\domasd\Documents\UniversityApps\WindowsForms\TOP_Aukcionas\WindowsFormsApplication1\obj\Debug\Aukcionas.csprojResolveAssemblyReference.cache
+C:\Users\domasd\Documents\UniversityApps\WindowsForms\TOP_Aukcionas\WindowsFormsApplication1\obj\Debug\Aukcionas.Aukcionai.resources
+C:\Users\domasd\Documents\UniversityApps\WindowsForms\TOP_Aukcionas\WindowsFormsApplication1\obj\Debug\Aukcionas.DetalusElementas.resources
+C:\Users\domasd\Documents\UniversityApps\WindowsForms\TOP_Aukcionas\WindowsFormsApplication1\obj\Debug\Aukcionas.Resources.Resource.resources
+C:\Users\domasd\Documents\UniversityApps\WindowsForms\TOP_Aukcionas\WindowsFormsApplication1\obj\Debug\Aukcionas.Resources.ResourceLogeris.resources
+C:\Users\domasd\Documents\UniversityApps\WindowsForms\TOP_Aukcionas\WindowsFormsApplication1\obj\Debug\KompiuteriuParduotuve.Sukurtinauja.resources
+C:\Users\domasd\Documents\UniversityApps\WindowsForms\TOP_Aukcionas\WindowsFormsApplication1\obj\Debug\Aukcionas.Properties.Resources.resources
+C:\Users\domasd\Documents\UniversityApps\WindowsForms\TOP_Aukcionas\WindowsFormsApplication1\obj\Debug\Aukcionas.csproj.GenerateResource.Cache
+C:\Users\domasd\Documents\UniversityApps\WindowsForms\TOP_Aukcionas\WindowsFormsApplication1\bin\Debug\Aukcionas.exe
+C:\Users\domasd\Documents\UniversityApps\WindowsForms\TOP_Aukcionas\WindowsFormsApplication1\bin\Debug\Aukcionas.pdb

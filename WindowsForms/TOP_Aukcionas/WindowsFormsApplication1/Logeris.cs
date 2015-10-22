@@ -10,7 +10,7 @@ namespace Aukcionas
 {
     public static class  Logeris
     {
-        private static string directory = @"E:\STUDY\2 kursas\1 semestras\C#";
+        private static string directory = @"F:\STUDY\2 kursas\1 semestras\C#";
         private static string fileName = "logas.txt";
         private static FileStream fileStream;
 

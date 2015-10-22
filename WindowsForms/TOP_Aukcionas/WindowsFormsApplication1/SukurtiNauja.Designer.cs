@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using Aukcionas.Resources;
 
-namespace Aukcionas
+namespace KompiuteriuParduotuve
 {
     partial class Sukurtinauja
     {
@@ -21,7 +21,7 @@ namespace Aukcionas
             {
                 components.Dispose();
             }
-            base.Dispose(disposing);
+           // base.Dispose(disposing);
         }
 
         #region Windows Form Designer generated code
@@ -203,7 +203,7 @@ namespace Aukcionas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(515, 301);
+            this.ClientSize = new System.Drawing.Size(508, 301);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
