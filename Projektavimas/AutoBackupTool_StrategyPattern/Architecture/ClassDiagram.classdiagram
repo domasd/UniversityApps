@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="057b3154-06ce-48e8-be01-ec9d4a588d31" name="ClassDiagram" linkedPackageId="f1c8466c-8302-47cb-a068-c94caec31c53" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="91f3c771-dcf1-416e-9245-2878bc1493cd" name="Backuper" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3c47c849-a9ec-4d67-a952-0ec762f07722" />
+        <targetEnds>
+          <association Id="a9183949-7fd4-40d6-a167-51c59f6a8d3e" isDerived="false" sourceEndRoleName="Backuper" targetEndRoleName="File" isLeaf="false" isAbstract="false">
+            <classMoniker Id="a9e3a85a-98b9-492b-bd4f-69329764f468" LastKnownName="File" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="58914a6c-742b-4d22-b648-e8f0bfbd2bc8" name="Backuper" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5b75a3d8-f59a-4cba-88d9-bec879a7dca5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8ab31e05-edff-4e6f-81d8-303679e2b091" name="File" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="13642b27-beab-4b52-a2c6-137703430a94" name="Lower" value="*">
+                      <elementDefinition Id="d0a32d12-fea3-4156-a05b-836a7808d811" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="34fc393a-b6be-43d6-885a-eb93aacfa9f7" name="Upper" value="*">
+                      <elementDefinition Id="5b8c769b-1477-4453-9321-4a203368a1d7" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="73c5f1cf-d651-45ec-a482-4d6133db7ef4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7af52489-9550-4293-808f-0e022a3e05ea" />
+          </association>
+          <association Id="0047ddbd-7a19-4884-9840-99b9eb9c1bf7" isDerived="false" sourceEndRoleName="Backuper" targetEndRoleName="IFileSystemStorageService" isLeaf="false" isAbstract="false">
+            <interfaceMoniker Id="9b38a28d-80e5-4ce6-8bd7-a70b549e2a7a" LastKnownName="IFileSystemStorageService" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0a7a8fa9-157a-4bda-91ef-d5267e503afa" name="Backuper" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8f5ae2c4-edb0-4460-8b5c-cdaf27729ce1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a7e9a9f6-0116-47ce-8afa-8d957a6a9b36" name="IFileSystemStorageService" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="2a81bd04-e9be-49d9-a16a-1b6e8601618b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="60971c78-01b2-4000-ac09-c992cab534e9" />
+          </association>
+          <association Id="447be1e4-b83b-47d8-a3b0-79dbec0a48f0" isDerived="false" sourceEndRoleName="Backuper" targetEndRoleName="ICloudService" isLeaf="false" isAbstract="false">
+            <interfaceMoniker Id="98b68849-2544-4463-b598-0c653b04bdc0" LastKnownName="ICloudService" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e5bff3cf-d995-4dc4-9142-f18a4f4f4953" name="Backuper" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a6e35de4-830c-4440-85a3-825fd77d3e56" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="39413990-9b5e-41bf-9963-9a1d8412bfd8" name="ICloudService" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="2a0d135a-9951-4b94-8cff-53775a3001d5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="74af01b1-6cfc-4c76-a568-1eab825e2d96" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="df6f0cf2-8aca-4a55-a641-6719605330cf" name="CloudService" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5968ed5a-5ba6-43da-977c-107a748fde77" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="871b5f53-2976-4df8-81be-001b6620827c" LastKnownName="ICloudService" />
+            </type_NamedElement>
+          </property>
+          <property Id="b5a03e96-1780-49af-9f8b-05e8d28baffa" name="FileSystemService" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c702c8cd-f663-44f3-abb6-0466f53e57a7" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="7e201395-c4ff-4b83-b334-9e6ed8d8cc0d" LastKnownName="IFileSystemStorageService" />
+            </type_NamedElement>
+          </property>
+          <property Id="a147ebcf-6321-43d8-995a-9582cc6da10f" name="files" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f3399523-457b-4fae-9e19-929a45dd6196" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="7863d45e-26b5-41ad-b1e0-a77b77ee783d" LastKnownName="List&lt;File&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="e8076757-b355-4dfb-b56e-3aea928bc571" name="Backuper" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2b6ec1da-bd34-4698-8cb4-f495823d6f6e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="624d9dbe-98b7-4579-a64f-a6fad6bf46c2" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="a0127ed8-884f-41f0-9806-48a63a41529c" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0b470c95-3d07-48ae-ae71-d16a617e0985" name="ICloudService" direction="In" isUnique="false">
+                  <elementDefinition Id="fea17a74-2f5c-4135-ac25-10b08ecf56ee" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="614588c6-a682-4e05-98d5-9a263e755be7" name="IFileSystemStorageService" direction="In" isUnique="false">
+                  <elementDefinition Id="5ab2450b-0906-4fb6-b2b8-d599705ac24e" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="d8ad3013-baa0-4b77-ba30-85c14c5f8d2f" name="BackupToCloud" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="05c080ae-58b5-4124-8e21-20463120af11" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a1443d91-36e2-4d19-ba4f-b738e812b6a6" direction="Return" isUnique="false">
+                  <elementDefinition Id="c09dde59-4af8-448d-b580-c073a16cd138" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="43a4a82d-b854-45df-bba3-0f49a35c4ff4" name="BackupToFileStorage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8df7f425-13eb-4584-a2ba-3cb5827aacd2" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3dbd7cd1-6467-46b7-b12f-d89a46bbaa5a" direction="Return" isUnique="false">
+                  <elementDefinition Id="7e665ee5-941a-4557-9185-bbea83ea8b12" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f5cb6f14-4993-4743-8486-8a87dc641628" name="Logger" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b3197a9c-4b35-4cd6-a0f6-1d3519bc6048" />
+        <targetEnds>
+          <association Id="ff787dc4-70d1-4aa1-abe2-43cf73d564f9" isDerived="false" sourceEndRoleName="Logger" targetEndRoleName="IFileSystemStorageService" isLeaf="false" isAbstract="false">
+            <interfaceMoniker Id="9b38a28d-80e5-4ce6-8bd7-a70b549e2a7a" LastKnownName="IFileSystemStorageService" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5d00d6b6-4ebe-4040-b7e6-83df4e4ed967" name="Logger" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="72bbf011-7529-4fba-9abf-91e03cde4de3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c5188a4d-56d6-4448-8b5d-3dcee17939b4" name="IFileSystemStorageService" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="17adedeb-52dc-4590-8e76-f8398a7bbed9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="089b47be-8937-4f12-a4f5-59cb1d95b669" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="4bbad9bf-ecc1-4000-9572-7563984c9227" name="LogFileName" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d2bfc43a-1bd4-4e4a-9436-ae8fba66101f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6c442ad9-e5f4-4e41-942b-83a11d28aa24" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="db39c83b-f2f5-4c98-932d-bf38c80d1d3e" name="FileSystemService" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2285795a-c1d2-489a-9e35-193a1fc4db76" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="87887faa-186e-4c99-a9d2-ac637eb55462" LastKnownName="IFileSystemStorageService" />
+            </type_NamedElement>
+          </property>
+          <property Id="f686f50d-996c-4d8c-aebe-b0dd59961289" name="logFolderName" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3b33245b-b963-4bd3-b38d-1c9dadce3ac0" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="963e884a-07cd-4c86-bf37-7e9958f9cbef" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="5b7c11de-7148-40d5-ac1a-181226c3a82c" name="Loggger" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="766fabd9-2912-416b-9b96-784862455479" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ea50f680-fef9-484d-bc41-8db169065f53" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="2c51d250-b670-47cf-b2d2-fd32af69364c" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e6e71b13-3160-4b75-ad54-fa7e03888577" name="IFileSystemStorageService" direction="In" isUnique="false">
+                  <elementDefinition Id="c11d7e5f-3c95-4e39-9aa2-e278c561c176" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="871b5f53-2976-4df8-81be-001b6620827c" name="ICloudService" isAbstract="false" isLeaf="false" cachedFullName="ICloudService">
+        <elementDefinition Id="958dcd25-f99b-48b6-9167-257606185f23" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7e201395-c4ff-4b83-b334-9e6ed8d8cc0d" name="IFileSystemStorageService" isAbstract="false" isLeaf="false" cachedFullName="IFileSystemStorageService">
+        <elementDefinition Id="574f55e0-3cbc-4c5b-9850-dc1ca043bd71" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a9e3a85a-98b9-492b-bd4f-69329764f468" name="File" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3d463f82-38d1-4e57-9ca1-5536bce665a6" />
+        <ownedAttributesInternal>
+          <property Id="2761fcbf-b5b1-4cc9-8bd6-0ecbc84a32de" name="Bytes" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2ec6b623-0d78-4ee1-8ad9-1054cea17077" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="c199e3a9-5e4f-4677-b53b-b9e693bde3d9" LastKnownName="Byte[]" />
+            </type_NamedElement>
+          </property>
+          <property Id="21851a01-88a9-4bfe-8860-23d435b9d0c0" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7f0c37ee-e9a9-4f43-a31e-a1c06fde5819" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6c442ad9-e5f4-4e41-942b-83a11d28aa24" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="7863d45e-26b5-41ad-b1e0-a77b77ee783d" name="List&lt;File&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;File&gt;">
+        <elementDefinition Id="919d27a5-1015-407c-87db-058370fd66a2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="9b38a28d-80e5-4ce6-8bd7-a70b549e2a7a" name="IFileSystemStorageService" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="178049b7-78f7-4a21-9884-7503f37766b6" />
+        <ownedOperations>
+          <operation Id="7dbd9106-6814-4578-9ca3-4e47098c5c20" name="CreateFileInSystemStorage" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="da331f48-d795-44ce-bee7-261de35b7812" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c6b0c07d-0f6b-4e00-9216-32eebf0c3211" name="byte[]" direction="In" isUnique="false">
+                  <elementDefinition Id="2e63f42f-5874-4798-9d0a-54d8a699982b" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="71514361-5295-4c59-9c83-e40544f7d1aa" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="732ca113-9d4f-40bf-8358-52147dbee989" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1f14dddc-b57f-4c8f-bc00-e82f42bbe8a1" direction="Return" isUnique="false">
+                  <elementDefinition Id="a35778bb-b350-4b95-a07e-2da97ebe7905" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="e9f1c305-ac85-4828-82dd-0a9711f361fe" name="ExistsFileInSystemStorage" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="596b482c-a08d-4daa-b615-1bd7349e5aef" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6512b7e6-1747-4ac8-9cfe-6c5fea0992af" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="c28fe525-e866-471f-867c-d3cb771d65d2" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4d8dadbe-d6f8-4d05-b609-14bacf03785d" direction="Return" isUnique="false">
+                  <elementDefinition Id="197846ae-0ec7-4956-af5b-3e3c629af723" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ad2a0f37-590e-4a26-9569-ed9a5ca209f7" LastKnownName="bool" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="f8483789-4251-4d41-9245-bfeb31251177" name="RemoveFileFromSystemStorage" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8d62d405-ed03-4eae-a964-01d7ad751684" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4f24937a-308f-4480-953d-a5da106b9641" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="9068ecc5-12a8-4cee-af39-d5415a2b4be3" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e34ed001-84f0-4d28-9d1a-5ae3333d6a02" direction="Return" isUnique="false">
+                  <elementDefinition Id="8803a0cf-a68f-4a2d-9500-48096735144b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8f4490c8-e28b-4e62-97c6-9c0686f6d88b" LastKnownName="byte[]" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="8915fd4a-08b0-422a-a6b5-83ad06ca3424" name="MoveToDirectory" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b0cf71ca-a895-46ec-b90a-ca721842de3d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f1827b6f-f83d-4793-972b-93898f2143ae" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="ac81f163-9cb8-4f46-93f8-c398b780e8e2" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d054da94-ca0e-4cc3-a3df-769e812257b3" direction="Return" isUnique="false">
+                  <elementDefinition Id="7e31404f-4647-4ef4-847f-03222a466660" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" name="void" isAbstract="false" isLeaf="false" cachedFullName="void">
+        <elementDefinition Id="74247b4c-56cb-463a-a731-ebeb92c60fb9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ad2a0f37-590e-4a26-9569-ed9a5ca209f7" name="bool" isAbstract="false" isLeaf="false" cachedFullName="bool">
+        <elementDefinition Id="b05e276b-9c4c-4b41-8d27-f6020601a1db" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8f4490c8-e28b-4e62-97c6-9c0686f6d88b" name="byte[]" isAbstract="false" isLeaf="false" cachedFullName="byte[]">
+        <elementDefinition Id="900c566e-c476-48ca-83bc-db7bca45bd88" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="98b68849-2544-4463-b598-0c653b04bdc0" name="ICloudService" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a220d39e-840b-42a8-a98f-9e50bbd182fc" />
+        <ownedOperations>
+          <operation Id="6fb58bc8-1356-47a0-aa4d-ab9f469088ef" name="CheckCloudConnection" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5875d25d-1106-4123-bd2a-3d02afaecdc8" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="711c8c87-c7b5-450d-95d3-8504d5c615a5" direction="Return" isUnique="false">
+                  <elementDefinition Id="15ea59a2-2268-4435-8e7a-36da6c502612" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ad2a0f37-590e-4a26-9569-ed9a5ca209f7" LastKnownName="bool" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="c86ab1f9-82df-4fd5-b83f-28a2588d3c89" name="UploadFileToCloud" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="eb4c6d78-6cd3-414b-bf36-bc95165ff510" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d495410e-e90d-4a87-8065-dfdddcb779d2" direction="Return" isUnique="false">
+                  <elementDefinition Id="6fa125d0-990d-4dfd-a3a8-be7fbb0908d5" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b9a8ba3b-327e-413f-9ff2-54cae62f25a9" name="byte[]" direction="In" isUnique="false">
+                  <elementDefinition Id="cf2a2281-4de0-4b42-ab39-9ff0a74d5059" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8a492d95-952a-4ef2-b3db-9612ecd27e4e" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="47438806-8dcc-4017-a0c9-109eaecd46e5" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="103a4e55-362e-4c3e-a531-0499f81d14e7" name="CleanCloud" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f1ada795-6eb9-4e99-88ab-43b04ed5c3a3" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b9cad025-54b6-43fc-a211-e9ad0edda56f" direction="Return" isUnique="false">
+                  <elementDefinition Id="e6d7e050-d23f-4210-a811-394caa5cd528" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7a5c3983-bd9f-4391-8d43-0c05443ebda2" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="43d73952-851a-4869-a17c-8332746b68df" name="DropboxService" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="55b352d3-89bb-47a2-8dfd-4e8959d138cc" />
+        <suppliersInternal>
+          <interfaceRealization Id="b4fcb3a3-6d5b-43bb-bd68-87e2d8662b82">
+            <interfaceMoniker Id="98b68849-2544-4463-b598-0c653b04bdc0" LastKnownName="ICloudService" />
+            <elementDefinition Id="79b74767-589c-40eb-8201-66d94f36b45d" />
+          </interfaceRealization>
+          <dependency Id="958302b9-6b16-4fd4-93ae-fcc8ba3ba2d4">
+            <packageMoniker Id="c34cff82-6537-4809-bcc3-bf6c5c042574" LastKnownName="DropBoxAPI" />
+            <elementDefinition Id="b020e4e0-1d38-4e9d-a213-25c56b2ff08e" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="79193478-f5fe-48ca-a23d-404854e52fa3" name="CheckCloudConnection" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a930c0e5-ab62-4ae7-ae74-0c1f189b4f34" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3268df53-be84-4073-9ddc-cff9bbc75d26" direction="Return" isUnique="false">
+                  <elementDefinition Id="f4e2e755-73a9-4a8a-a8ca-3caae8911642" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ad2a0f37-590e-4a26-9569-ed9a5ca209f7" LastKnownName="bool" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="dfa8c883-320c-4f52-baf9-a7518e5bfdf3" name="UploadFileToCloud" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0bf4e9e2-13af-43d3-89e7-d50a35ee97aa" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9d0d868d-985c-4a39-920f-a497bdd92df3" name="byte[]" direction="In" isUnique="false">
+                  <elementDefinition Id="10fdea0d-898f-4533-9d1c-63492e57e7b6" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="259a64f1-b3f0-43a5-87b6-61bd7da03813" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="814423f8-8cf0-4889-a2a7-8a4eb38b89f0" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a6772fc8-ea27-40ba-84ef-828e6dfb845e" direction="Return" isUnique="false">
+                  <elementDefinition Id="8864a697-b769-4d36-9ceb-73209d67d596" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="3da1802a-b3eb-479d-8828-221833868124" name="CleanCloud" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1877abc1-c7f5-44d1-b224-1659aab08c4b" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3d21c6de-2393-4462-902d-d6f12afaa71e" direction="Return" isUnique="false">
+                  <elementDefinition Id="49535064-a954-4690-8b53-fa81e351ebf0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="cdc13386-0515-49b7-b28d-557a17b6e09e" name="GoogleDriveService" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9f7e5528-511b-4c56-8191-9a2924451c2b" />
+        <suppliersInternal>
+          <interfaceRealization Id="c155d8f7-fd17-4b1a-9384-260aff8ed38b">
+            <interfaceMoniker Id="98b68849-2544-4463-b598-0c653b04bdc0" LastKnownName="ICloudService" />
+            <elementDefinition Id="60926cf4-31b5-45f9-866f-516667283de0" />
+          </interfaceRealization>
+          <dependency Id="8e65cf06-897d-4e29-9807-cdff9c481a92">
+            <packageMoniker Id="8ff41c6b-f947-41a0-aac6-bfa963d8d851" LastKnownName="GoogleDriveAPI" />
+            <elementDefinition Id="bf764dd8-efef-4a89-b041-f0bddec36c0c" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="ce2e1e29-f7ca-4620-b192-d196eedddb75" name="CheckCloudConnection" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d997d322-1651-4878-ae4d-72e00f058bb2" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="10428e5c-f079-498e-a87a-4f7721b72756" direction="Return" isUnique="false">
+                  <elementDefinition Id="01d68855-6c9a-4625-aa76-7cccd35f6fe2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ad2a0f37-590e-4a26-9569-ed9a5ca209f7" LastKnownName="bool" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="4a80e83c-19ef-4536-a892-bb3b60d409e2" name="UploadFileToCloud" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="071a4414-8691-40a2-8681-635456f59a45" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="33caed18-dcd6-4c98-b370-6fcc020eac27" name="byte[]" direction="In" isUnique="false">
+                  <elementDefinition Id="ed306d4c-a92c-44d9-8054-f816c221e818" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ff0ea19f-ba0f-40d4-9bf7-1cf7416b224e" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="5dc10935-a276-427a-8620-e01dc41c4b20" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8dd99704-923d-494a-98ff-19b74a146d13" direction="Return" isUnique="false">
+                  <elementDefinition Id="2cbd13d8-712a-445d-8fc2-a1d9b257221e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="b0770c52-27e6-4de0-b22e-891f6f1a38c8" name="CleanCloud" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b05a5ccd-de26-4929-a9f6-64bb9e64b717" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3bb589be-2adf-4946-bdcd-86cfa8793649" direction="Return" isUnique="false">
+                  <elementDefinition Id="6ab4a6bd-7251-4c09-97cb-54fcf67f15a9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b48726c0-48c5-47c6-9ac9-3924662928a2" name="LocalStorageService" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8b8cf650-df0d-49d7-a87e-951f10790a1c" />
+        <suppliersInternal>
+          <interfaceRealization Id="ebe9c078-9adc-4ec6-8262-6e3d3c571f77">
+            <interfaceMoniker Id="9b38a28d-80e5-4ce6-8bd7-a70b549e2a7a" LastKnownName="IFileSystemStorageService" />
+            <elementDefinition Id="dfccc6cf-abc8-4e04-b46b-8b7204c6242e" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="d45ac231-1edb-4395-a586-d58ad9860c2b" name="CreateFileInSystemStorage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="54160451-6fc6-4b19-bed8-40d212b1d0ad" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d59bade7-2ec5-4c7f-9323-54bcdf81384e" name="byte[]" direction="In" isUnique="false">
+                  <elementDefinition Id="eb86ab99-a614-4e66-aced-61fdf23d6021" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4da1e222-51fd-46b5-ba41-c74a0ffbfb92" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="fa0d2f13-d280-4285-884c-81bea38e9b84" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1665f30a-ece1-490b-b163-2ef15e0edc86" direction="Return" isUnique="false">
+                  <elementDefinition Id="704dfecf-d948-46b4-92d0-392b4f3d73f2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="bee3bd4d-7f74-4cad-95e5-3fa44772ece7" name="ExistsFileInSystemStorage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a5f177ab-1d91-4326-85a9-2558cb438124" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="74bfa3e7-fa5c-4163-baf1-b32d595c8dfa" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="5959bb29-dda3-4d06-8f94-6db39da69108" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7899286b-5dda-4221-ba15-52ca58cf655b" direction="Return" isUnique="false">
+                  <elementDefinition Id="37208ff9-6f35-4cc7-80e4-401e26c8363a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ad2a0f37-590e-4a26-9569-ed9a5ca209f7" LastKnownName="bool" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="31b83ee2-4f08-4819-a19f-863844654b8f" name="RemoveFileFromSystemStorage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9632c42e-28e6-4b09-a9d4-2ba431f64ab1" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cb855b38-5e76-4856-8c7d-0c238347a37a" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="6fe02f16-ef0e-4413-ad5f-c41b81277688" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="70d97944-ca41-4c15-83da-f63471a8c507" direction="Return" isUnique="false">
+                  <elementDefinition Id="f67131c8-a250-41b3-b695-efe2640fd0a2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8f4490c8-e28b-4e62-97c6-9c0686f6d88b" LastKnownName="byte[]" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="fd2fec8e-67f7-4c55-b2f3-bc09bfd31c6b" name="MoveToDirectory" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="20472b0e-8c86-489f-9480-23fd79cc1e6d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a8b5b028-fb5b-4710-bec8-bb5e73e5149a" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="2bed221e-20ca-4cc2-9c1a-d1a7d4be128c" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cffd96cf-8b4e-4ca3-bf56-3192651bdacc" direction="Return" isUnique="false">
+                  <elementDefinition Id="3e75a67b-1d71-4354-b880-d3b2bef8a52d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e97c260b-0348-45c0-a09f-5ba09026e438" name="FtpService" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a542fbba-224e-4793-b6cd-0fc8e55d7b60" />
+        <suppliersInternal>
+          <interfaceRealization Id="d8fd0a2b-0d58-4fe0-9300-d32abe832a5c">
+            <interfaceMoniker Id="9b38a28d-80e5-4ce6-8bd7-a70b549e2a7a" LastKnownName="IFileSystemStorageService" />
+            <elementDefinition Id="cbee0f7b-e806-4ece-bad7-7721ca6113f0" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="d7e3a20a-a59f-4441-a4ce-46f9dd5a6082" name="CreateFileInSystemStorage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="73ece5f3-ac85-45d4-b679-9207d4c3ad07" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="56be4bf5-2204-4b01-898e-636699676313" name="byte[]" direction="In" isUnique="false">
+                  <elementDefinition Id="8d3e228a-e4dc-454b-8ac4-1abfe1dfb71a" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="953a4745-0291-46a0-8f70-6e2abea4c888" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="5d41d93a-74b6-4469-a0f9-bc6f7e3c2608" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="183f6ac7-e70b-4fce-88cd-2cb1c8a08115" direction="Return" isUnique="false">
+                  <elementDefinition Id="3e26793e-788e-42a7-a3fb-81895ee8dad1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="049fe364-ba95-490c-93b9-ab15aded6ed0" name="ExistsFileInSystemStorage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0df82386-468c-4f45-9778-64a439819e14" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="67f1f6dd-0cfd-4c59-b6f1-99caaddda0f9" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="b1f93aa1-de3e-4c3a-9f7b-48b5bc914a1d" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2736aa48-741f-4a24-9e88-9a8b2d580011" direction="Return" isUnique="false">
+                  <elementDefinition Id="336d3a3f-3a6d-4aff-bdc4-fbd6ef109190" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ad2a0f37-590e-4a26-9569-ed9a5ca209f7" LastKnownName="bool" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="ae188a23-943f-4b11-afd8-c4ad68eef503" name="RemoveFileFromSystemStorage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d43427ba-7678-4926-8398-0ad5b4e174d2" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="80cc8977-7ae9-495a-9f05-bf18d12a948b" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="67bbc7a7-04b3-40b0-a159-f42167250713" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e92bb774-6708-4efc-8b5b-b29a1485bbcb" direction="Return" isUnique="false">
+                  <elementDefinition Id="c1ef596e-533e-4103-91a9-d174b129a81d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8f4490c8-e28b-4e62-97c6-9c0686f6d88b" LastKnownName="byte[]" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="076a35cc-25af-4e45-ad84-303d97171c08" name="MoveToDirectory" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8a805a22-5e27-4474-b62c-faba44d506d9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f1e55367-5bf1-4f18-9a84-44f7ede7c6c6" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="192e2d3a-b31a-4809-889d-539ce0dd0367" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2bcaf93d-1e92-4d5a-bc3b-3e770d5d7e2f" direction="Return" isUnique="false">
+                  <elementDefinition Id="2543a869-dcd0-44ea-82b5-c30b460b5c57" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="151c2dc7-d917-4d92-9fc7-d5b42f5cb1cb" name="GetCredentials" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1d84b5db-9b6d-4786-9fa4-28d0bfc884c4" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="00359f5a-d311-4292-ae89-bf62f82fb73b" direction="Return" isUnique="false">
+                  <elementDefinition Id="d100527e-30c8-42bf-bc97-fc31bac250e9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2e51207c-6099-4b54-96f9-b3e2f9638e75" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="c199e3a9-5e4f-4677-b53b-b9e693bde3d9" name="Byte[]" isAbstract="false" isLeaf="false" cachedFullName="Byte[]">
+        <elementDefinition Id="a28dbc6c-bf87-4175-ba87-bc31f916cb1b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6c442ad9-e5f4-4e41-942b-83a11d28aa24" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="c34cff82-6537-4809-bcc3-bf6c5c042574" name="DropBoxAPI">
+        <elementDefinition Id="92cee9f6-e6b1-407c-85d2-a79278048839" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="f38a4324-5a52-4553-a119-1e7dd8a583ee" name="DropBoxFileService" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="901e6ac1-239d-4386-bf94-ec0bd7f2a4b7" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="8ff41c6b-f947-41a0-aac6-bfa963d8d851" name="GoogleDriveAPI">
+        <elementDefinition Id="bc17e974-3524-405e-ba6a-5a8d8779f7f4" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="1768b3b7-3645-46b7-8204-d78fdf31bbb3" name="GoogleDriveAPIViaWindowsApp" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="8cef9006-3273-4437-9c1d-47e527deeef5" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="baf1bb1a-85c7-40a6-9ae9-70970bbb95cd" name="GoogleDriveFileServiceGoogleSDK" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="8373e0e8-8719-4f77-a04c-03cfe0d1071f" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <packageHasNamedElement>
+      <referencedType Id="87887faa-186e-4c99-a9d2-ac637eb55462" name="IFileSystemStorageService" isAbstract="false" isLeaf="false" cachedFullName="Architecture::IFileSystemStorageService">
+        <elementDefinition Id="178049b7-78f7-4a21-9884-7503f37766b6" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7a5c3983-bd9f-4391-8d43-0c05443ebda2" name="void" isAbstract="false" isLeaf="false" cachedFullName="void">
+        <elementDefinition Id="74247b4c-56cb-463a-a731-ebeb92c60fb9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="963e884a-07cd-4c86-bf37-7e9958f9cbef" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="dd869309-36a9-4368-93de-d9f9cd10f0f5" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="f1c8466c-8302-47cb-a068-c94caec31c53" name="Architecture">
+    <elementDefinition Id="7e352e57-3775-42f6-a6f8-04246cca5d1d" />
+    <profileInstances>
+      <packageHasProfileInstances Id="0dc59fd1-4069-4eb5-8fcf-dd6a90b1c7e7">
+        <profileInstance Id="b431f2f7-aac7-4f77-b993-9cd95347e3d6" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="95613a3f-9c41-4aa6-8c41-78c5b69fcecf">
+        <profileInstance Id="fe458e7b-c7d7-4bbe-a2d3-c20f21321970" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
