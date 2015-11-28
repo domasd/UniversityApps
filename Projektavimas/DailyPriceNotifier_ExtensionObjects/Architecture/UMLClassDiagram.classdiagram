@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="e3207402-17f3-4e20-92b9-14ae74b94f11" name="UMLClassDiagram" linkedPackageId="6266be66-e583-4327-8909-45c28a1d24d8" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9a421f6b-fdbd-4414-a01d-66e501bd3d29" name="SimpleNotifier" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a7e50f25-bf5c-4f97-ae1d-01d2434b4f37" />
+        <generalsInternal>
+          <generalization Id="ce6302e6-01cd-4d95-9bff-1751d3c89742" isSubstitutable="false">
+            <classMoniker Id="90f20b73-f07a-40e4-b30b-f0813ba9ef9e" LastKnownName="Notifier" />
+            <elementDefinition Id="94e15b2a-f7e8-427d-b608-2128c7124055" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="c26d814b-237e-4ccc-aefb-177e413cbb13" name="Notify" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bad731ca-16d9-4f84-8b29-1b5123f030ad" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="43aade2c-5693-4a7e-843a-06b15a3fe4ec" direction="Return" isUnique="false">
+                  <elementDefinition Id="dcd63dd7-3ab6-45c0-beba-441278338167" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6d8fdbee-56ad-4d7d-a8af-3eeeda71d2ea" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7a85c2fd-2acb-4286-8402-4f3bc9867617" name="SimpleNotifier" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="83dc8bd2-cc22-456b-a285-6a5729947668" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4d086e9e-2ccb-4620-b252-1b77191c05be" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="b300ac43-6094-4306-a555-6a976a41cffa" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="bd07e6a0-5d7f-46a9-b08c-e6b03e25fbf4" name="StringBuilder" direction="In" isUnique="false">
+                  <elementDefinition Id="774be3d8-e083-4c27-b7e7-4a8a38879007" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="695fbac3-cd99-45b4-ba2a-fd17723a8261" name="CloseMenuItem_Click" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5cf36ca9-fa5c-4d2d-9c90-d84d98435654" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="fcf0198e-6d5d-4d90-bf0e-8e147b71e7bb" name="object" direction="In" isUnique="false">
+                  <elementDefinition Id="fd4710c5-74a7-4fe0-acb6-45757122ae9b" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="683ae8fc-ef7d-4f4a-ad0f-3ff220eb8175" name="EventArgs" direction="In" isUnique="false">
+                  <elementDefinition Id="0c6484e7-41ca-424a-81ed-303b83237016" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ee91ea5d-fba4-45a6-b8c7-9d517e283764" direction="Return" isUnique="false">
+                  <elementDefinition Id="e3333f6b-7a3b-4135-8b43-8f71818e87a3" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6d8fdbee-56ad-4d7d-a8af-3eeeda71d2ea" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="9c28f8fc-ae00-4b0f-a05e-9bd57a5c965a" name="Trayicon_DoubleClick" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="419b84a3-e88a-458f-a2d7-c1ddae9d8b45" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="dac70bde-4024-499a-96ce-1f5f0f6e3192" name="object" direction="In" isUnique="false">
+                  <elementDefinition Id="f66a09be-b1ac-456c-89ad-88efd9f1adaf" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5a31a11c-3e3c-4c0e-b9a6-096c35ed2d3b" name="EventArgs" direction="In" isUnique="false">
+                  <elementDefinition Id="0b3c46fe-9895-4e72-bafe-864b025b244f" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f642533c-08c2-43c5-9e08-4e209f7ddb33" direction="Return" isUnique="false">
+                  <elementDefinition Id="4f977d45-b8c7-4233-9d68-19db6e967638" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6d8fdbee-56ad-4d7d-a8af-3eeeda71d2ea" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e79d0a30-772d-4f75-b5cd-0ac3f82258e8" name="TechnoramaPriceParser" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3677350f-987c-42cc-9d61-f5bb1aa1fc23" />
+        <suppliersInternal>
+          <interfaceRealization Id="77571025-763d-42f4-9bf8-4530e7f3b5e6">
+            <interfaceMoniker Id="7d7f7d2b-5e76-4802-86e9-401d8c528567" LastKnownName="IPriceParser" />
+            <elementDefinition Id="cdba32ae-1fc9-466a-af41-350f764f5a51" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d09cdebe-bf7d-470d-81a5-681d96834423" name="1APriceParser" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cf1da75d-bc87-4260-8906-86726cf9f4d2" />
+        <suppliersInternal>
+          <interfaceRealization Id="e2bbae28-bfc8-4266-a099-d3e48f5a44ae">
+            <interfaceMoniker Id="7d7f7d2b-5e76-4802-86e9-401d8c528567" LastKnownName="IPriceParser" />
+            <elementDefinition Id="1a8e1578-d837-410e-859c-6c63d5948e2e" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f67f2eed-f51b-479a-b19b-667d95d8e5d0" name="ElektroMarktPriceParser" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5543e680-6fcd-4d53-975b-e28c437127ba" />
+        <suppliersInternal>
+          <interfaceRealization Id="d18923da-b240-41d3-8a84-a219fdbdd6c3">
+            <interfaceMoniker Id="7d7f7d2b-5e76-4802-86e9-401d8c528567" LastKnownName="IPriceParser" />
+            <elementDefinition Id="298e6c27-f16e-48ba-91ad-e0420d560ec2" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="557bece4-7444-4d9f-8ee6-bfa514f42811" name="CommonPriceGetter" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6e2d53a7-5343-4e98-b082-9a1dbc6b4d3f" />
+        <suppliersInternal>
+          <interfaceRealization Id="388b2a28-cc4c-4b50-a00c-9090a084a6ff">
+            <interfaceMoniker Id="fb031144-0b6a-4bf7-bcfb-73c2430b535a" LastKnownName="IPriceGetter" />
+            <elementDefinition Id="54b258af-6e9c-4889-af89-2ece334c383f" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="e2473639-8d8f-487e-b33e-81a74f752da8" isDerived="false" sourceEndRoleName="CommonPriceGetter" targetEndRoleName="IPriceParser" isLeaf="false" isAbstract="false">
+            <interfaceMoniker Id="7d7f7d2b-5e76-4802-86e9-401d8c528567" LastKnownName="IPriceParser" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d726b24a-48b3-4015-9b0a-c63b2060c252" name="CommonPriceGetter" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d7a05a2a-a533-4406-9569-6ea0fde3b887" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f9583121-b8f0-401c-84e8-28952bd4bb34" name="IPriceParser" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="bb8f6ff7-0b26-4cbb-bc1d-037e62df052c" name="Lower" value="*">
+                      <elementDefinition Id="cfe62e35-8c42-47b8-9d4b-2669daf9ee2a" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="7b1d57fd-356b-4fff-9e7d-f17c046bce1b" name="Upper" value="*">
+                      <elementDefinition Id="413678c8-ec24-4fbc-b289-a67d5361635b" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="4e88488a-3f61-4f9d-8e03-7ca52fdca6ed" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="08f949de-453c-46e2-819d-3847497c6024" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="fb031144-0b6a-4bf7-bcfb-73c2430b535a" name="IPriceGetter" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5767c55a-1b08-473e-bc72-6164ac922069" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="7d7f7d2b-5e76-4802-86e9-401d8c528567" name="IPriceParser" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4736e70d-89c6-4731-a23a-4664fbb6de43" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7e2f1613-a6dc-4c9a-8aaa-830334ff06a3" name="Client" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5752d3dd-6659-461f-b596-ed1074dd23e2" />
+        <targetEnds>
+          <association Id="a1d9826d-c5bb-45cf-93d6-140711b5554c" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="IPriceGetter" isLeaf="false" isAbstract="false">
+            <interfaceMoniker Id="fb031144-0b6a-4bf7-bcfb-73c2430b535a" LastKnownName="IPriceGetter" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fefe715d-709a-41eb-97cf-e4d287f615aa" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="efde8db3-b5cd-424a-b46c-a70f847f1634" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="701504a6-334f-4107-abd1-11041facade1" name="IPriceGetter" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1c97746e-4ab2-489f-a3eb-447f25d2936a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fe1984c2-5118-469a-a845-7fd9dbae2dab" />
+          </association>
+          <association Id="f00b1900-daa2-40e7-bb54-ead65f998cc2" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="SimpleNotifier" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9a421f6b-fdbd-4414-a01d-66e501bd3d29" LastKnownName="SimpleNotifier" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d74f383e-e823-412b-be07-580281e02909" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3164db61-a265-4ccc-825d-943215668a4f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b4aed11b-3c13-4396-9ad0-89478578693e" name="SimpleNotifier" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1233f3a8-dd7f-4307-8f10-3d52d7c1268e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="861cc310-d7b3-4d58-aaeb-d72a916391c9" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="90f20b73-f07a-40e4-b30b-f0813ba9ef9e" name="Notifier" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4fe3ca36-246f-4732-bacf-eec0ff267b4a" />
+        <targetEnds>
+          <association Id="ed400cfc-9e7d-4e38-aa05-876c1d76aa9b" isDerived="false" sourceEndRoleName="Notifier" targetEndRoleName="IExternalNotifierExtension" isLeaf="false" isAbstract="false">
+            <interfaceMoniker Id="0ae66340-2e91-48ef-995c-89801767d93d" LastKnownName="IExternalNotifierExtension" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bd3a6de8-1383-4d28-bda1-5ca45d3f239a" name="Notifier" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3a06a553-ab7a-4da4-b3a5-680dbdeeb0a1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8f0635f6-009e-4879-8df0-8d7470576815" name="IExternalNotifierExtension" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="719f199f-4b10-46bc-b770-965e3ae11e57" name="Lower" value="*">
+                      <elementDefinition Id="54e43513-c0c0-4064-b692-10b94b229424" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="a596d571-9a63-48a7-8ad1-3e195655bcb4" name="Upper" value="*">
+                      <elementDefinition Id="ce71203c-3d19-4f11-ba86-6224d7a62fdc" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="ea996376-7207-4ae4-a64e-dbe7c187e6ed" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fdc535e2-2845-46da-a092-777b0d7510b0" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="4cbd4144-2e4f-4be3-95f3-de20a454ab39" name="string Message" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e0014df7-3350-43bd-9599-3e70d4b16806" />
+          </property>
+          <property Id="4a105ade-6492-44cc-9109-2b993816846b" name="Dictionary&lt;String, IExternalNotifierExtension&gt; _extensions" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="53c25998-fdd1-499c-ac5d-3937496ba5ce" />
+          </property>
+          <property Id="bff2d692-c537-4802-90d3-50bafa1399ad" name="StringBuilder logStringBuilder" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="588dc78b-8c31-4669-9f9f-4ff9d55971b2" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="064e5d95-8018-4fa7-bc07-45d9098dffc7" name="Notify" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d6657e66-3f45-4251-9c67-9c69973c002b" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a6489601-ca01-466f-86c7-9ab8d1a64505" direction="Return" isUnique="false">
+                  <elementDefinition Id="d740c509-f0ee-4322-abe2-2538855002c4" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6d8fdbee-56ad-4d7d-a8af-3eeeda71d2ea" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="333e1818-a5a2-42a2-a752-f3e4d21177dd" name="LoggedCount" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3deff176-6b3c-434e-a6ee-4fceb4f55f1d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8af88cc4-98cf-493a-a20d-9e14ffaaed91" direction="Return" isUnique="false">
+                  <elementDefinition Id="dda5803d-a27e-45dc-b614-00ca2d4d3390" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e31184d1-ec27-41ef-aa94-3ccea157fc2f" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7347c398-d690-4684-a8fb-470c5055447e" name="OnSuccessAppendLog" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f84c567a-4b11-4cdc-940b-e57e85b5c4fb" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4612670f-4b88-4e68-b044-bc5e567df34a" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="dab9bf2a-b97e-4ec6-bd1c-02fc5a0ad28c" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="666ef162-7ddd-40cf-b179-56d2b7e51919" direction="Return" isUnique="false">
+                  <elementDefinition Id="be250b60-5d08-4afe-a0f2-3dcd75c30c60" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6d8fdbee-56ad-4d7d-a8af-3eeeda71d2ea" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7109325c-262c-4ef4-8c8d-2d6d78cb21c5" name="Notifier" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ab0fe68b-6cf1-4d44-b5cf-0b02d6251cf6" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9dd58ca0-8154-4981-aae6-95020ac2955e" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="d5058138-2de8-4389-917d-cf4a88b27adc" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9b92b3f1-1d1b-4e58-bcf6-c45b65fbd171" name="StringBuilder" direction="In" isUnique="false">
+                  <elementDefinition Id="ac5402cb-7b9b-45d8-a448-f1c497c3e2e5" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="677dc085-a611-4d61-8a3f-0f8785aecd9d" name="AddExtension" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9c11d4ab-dd5e-432d-836e-538d39adf1af" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="115d5907-5540-404f-a92c-3aa69bab3eea" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="00fb718a-b5b3-4c25-8ce7-1f45116d5f59" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="666a3591-f96f-4105-ad63-81e41e89abb5" name="IExternalNotifierExtension" direction="In" isUnique="false">
+                  <elementDefinition Id="6c764713-65df-47a3-8eba-7dc00d75bbea" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="67766886-38c4-4813-b4b3-a3ac6a1d9ce5" direction="Return" isUnique="false">
+                  <elementDefinition Id="8869f535-3a07-4d72-9b06-b7816e422cfd" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6d8fdbee-56ad-4d7d-a8af-3eeeda71d2ea" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="6be34682-303c-4f01-8cb1-6b31c44a827e" name="GetExtension" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5fe6aa39-e277-4640-8de8-307ccd084b97" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="92a66c4b-4722-4859-a8b4-c1f1a6284600" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="8d0575eb-a70e-4a6e-8944-27a616a628f3" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ce3e1dda-efa1-4863-809a-9bc4cdc8498e" direction="Return" isUnique="false">
+                  <elementDefinition Id="497b5d8b-2ded-48d2-b8ac-8ecb15c84a08" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="de651492-1586-4c32-9c01-bce05fad04f0" LastKnownName="IExternalNotifierExtension" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9b132323-0fbc-4cea-8027-d2114e238396" name="EmailNotifierExtension" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b5f393f1-de25-4022-89be-bb616ece3f0d" />
+        <suppliersInternal>
+          <interfaceRealization Id="5c5eb22d-4d09-46e4-b867-244610b55871">
+            <interfaceMoniker Id="0ae66340-2e91-48ef-995c-89801767d93d" LastKnownName="IExternalNotifierExtension" />
+            <elementDefinition Id="2eb43b16-b9e7-4288-a88c-2d4e8fca6d31" />
+          </interfaceRealization>
+          <dependency Id="a731608a-c2f4-4abf-b6f0-1134c180661e">
+            <classMoniker Id="90f20b73-f07a-40e4-b30b-f0813ba9ef9e" LastKnownName="Notifier" />
+            <elementDefinition Id="dfb7d63a-007f-4057-8be5-03cf37c351b7" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="3fd7703b-15e6-428c-b0d4-cea9a946a344" name="EmailNotifierExtension" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="51766b5a-a16a-423a-a1d2-a77955463dc9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8f22a729-3348-46c6-9a66-b12b1c6fe5aa" name="Notifier" direction="In" isUnique="false">
+                  <elementDefinition Id="cf6951ee-5c09-49a0-8a1f-1fe9d73a2bee" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="d9f91d38-14a5-4ef6-8786-b9611d8f2ed2" name="Notify" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a43a518d-302e-4e61-b452-fa7063975862" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="80a2ccdf-eddd-48c6-ae5f-4dc57630b1a6" direction="Return" isUnique="false">
+                  <elementDefinition Id="85138ea6-19b6-407e-aa3d-9eeb76b8661a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f917967e-9385-463b-9ad8-3bf698bac725" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="63024a6e-1642-42ff-bfbe-c5b104c45e81" name="SendNotificationToEmail" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a8aa2be0-3637-44f6-9aa2-964eb8897cf7" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0a6fbc2e-d6c3-42aa-8b1c-c6c9f90ac30e" direction="Return" isUnique="false">
+                  <elementDefinition Id="429ded93-1062-40da-9ea9-3dd32454c59d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f917967e-9385-463b-9ad8-3bf698bac725" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="39a924de-fe37-4ca8-92c3-4ed2762cbe05" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="920b3358-7edb-45ad-b0ed-6ee3858afc87" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="0ae66340-2e91-48ef-995c-89801767d93d" name="IExternalNotifierExtension" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="590e6aaf-0dd9-4e86-a68e-3d48526a203b" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1a82643f-3e77-4faf-a5f7-14e58d4314f7" name="NirvanaNotifierExtension" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d900348b-bd47-4f31-a3dd-9403c2705c98" />
+        <suppliersInternal>
+          <interfaceRealization Id="86ad9a41-7a86-4cd8-b539-caeabed35c87">
+            <interfaceMoniker Id="0ae66340-2e91-48ef-995c-89801767d93d" LastKnownName="IExternalNotifierExtension" />
+            <elementDefinition Id="526913b3-1eee-40bd-bf37-4c6606cf84d1" />
+          </interfaceRealization>
+          <dependency Id="d70c90e5-43db-4d8c-88c8-972a3d9f35e3">
+            <classMoniker Id="90f20b73-f07a-40e4-b30b-f0813ba9ef9e" LastKnownName="Notifier" />
+            <elementDefinition Id="0a929755-85a1-43c9-9d72-5185e47671d6" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="83408494-e293-4221-93b4-8256b00e929f" name="NirvanaNotifierExtension" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="adb2d0bf-929a-4e7a-8ba2-e8056c674ce3" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="23df6977-74dd-4c46-ad65-274e915ed0bc" name="Notifier" direction="In" isUnique="false">
+                  <elementDefinition Id="faebf758-61d0-413c-a6ff-0b8f53facd4f" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="5ac6173b-a4c0-43dc-b988-d033e812ade8" name="Notify" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cd5fd4ed-7f55-4f58-907d-db22ad920126" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="43dede26-4356-4e62-8536-e0c0ee415b64" direction="Return" isUnique="false">
+                  <elementDefinition Id="f6f3408a-73c0-4c56-a61e-83504239d552" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4d1682e1-78bf-46ac-9c84-f7288be3c65f" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="035640ec-ff92-4c6f-a6cc-b7e797c207f7" name="AddComponentNameToMessage" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cf7d4249-ab61-4be7-adcf-48bdf3182263" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ad5f59af-701e-4c91-86d7-63afc816d319" direction="Return" isUnique="false">
+                  <elementDefinition Id="5aae1915-f9a4-40ed-a559-0e15193fb9b9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4d1682e1-78bf-46ac-9c84-f7288be3c65f" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="b461ece2-cecc-4d14-8246-59f784631994" name="SendEmailNirvana" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6dad08e9-1282-40f8-a179-e45a7b38290d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9f417aeb-7cb8-4e9a-86f6-f7780ded3ddb" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="9e0b1279-b1b8-44e3-8f36-1d41d2b39795" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="078a38d3-ea32-4157-8c5a-4cb2aff9145b" direction="Return" isUnique="false">
+                  <elementDefinition Id="0857afd3-9322-4446-97ce-172e2cb7d2ca" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4d1682e1-78bf-46ac-9c84-f7288be3c65f" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="e31184d1-ec27-41ef-aa94-3ccea157fc2f" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="ca8e4cf7-16d9-47ae-86b9-a4246b42c783" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="de651492-1586-4c32-9c01-bce05fad04f0" name="IExternalNotifierExtension" isAbstract="false" isLeaf="false" cachedFullName="Architecture::IExternalNotifierExtension">
+        <elementDefinition Id="590e6aaf-0dd9-4e86-a68e-3d48526a203b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6d8fdbee-56ad-4d7d-a8af-3eeeda71d2ea" name="void" isAbstract="false" isLeaf="false" cachedFullName="void">
+        <elementDefinition Id="a0d64d7b-b1a7-45fe-bc75-f42ce178ae2e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="4d1682e1-78bf-46ac-9c84-f7288be3c65f" name="void" isAbstract="false" isLeaf="false" cachedFullName="void">
+        <elementDefinition Id="a0d64d7b-b1a7-45fe-bc75-f42ce178ae2e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f917967e-9385-463b-9ad8-3bf698bac725" name="void" isAbstract="false" isLeaf="false" cachedFullName="void">
+        <elementDefinition Id="a0d64d7b-b1a7-45fe-bc75-f42ce178ae2e" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="6266be66-e583-4327-8909-45c28a1d24d8" name="Architecture">
+    <elementDefinition Id="339d98dd-73af-435c-9c8c-93272f58e37a" />
+    <profileInstances>
+      <packageHasProfileInstances Id="a958f1d9-3b2f-4749-b651-8114894e9904">
+        <profileInstance Id="23e54059-3b70-4adc-96a3-364de096bb37" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="e70060e8-cfd5-4557-a12f-8fe99f03a63a">
+        <profileInstance Id="9b5535b4-09a1-4dcf-b57a-1abca4ff54d1" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

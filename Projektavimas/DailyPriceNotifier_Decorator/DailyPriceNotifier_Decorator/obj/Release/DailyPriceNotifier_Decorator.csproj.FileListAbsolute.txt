@@ -1,0 +1,53 @@
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\DailyPriceNotifier_Decorator.exe.config
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\DailyPriceNotifier_Decorator.exe
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\DailyPriceNotifier_Decorator.pdb
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\HtmlAgilityPack.dll
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\Json.dll
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\Newtonsoft.Json.dll
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\HtmlAgilityPack.pdb
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\HtmlAgilityPack.xml
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\Json.pdb
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\Newtonsoft.Json.xml
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.csproj.App.config
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.Resource.resources
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.csproj.GenerateResource.Cache
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.exe
+C:\Users\ddoma\documents\visual studio 2015\Projects\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.pdb
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\DailyPriceNotifier_Decorator.exe.config
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.exe
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.pdb
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\DailyPriceNotifier_Decorator.exe
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\DailyPriceNotifier_Decorator.pdb
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\HtmlAgilityPack.dll
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\Json.dll
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\Newtonsoft.Json.dll
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\HtmlAgilityPack.pdb
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\HtmlAgilityPack.xml
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\Json.pdb
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\Newtonsoft.Json.xml
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.csproj.App.config
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.csprojResolveAssemblyReference.cache
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.Resource.resources
+C:\Users\ddoma\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.csproj.GenerateResource.Cache
+C:\Users\Domas\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\DailyPriceNotifier_Decorator.exe.config
+C:\Users\Domas\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.exe
+C:\Users\Domas\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.pdb
+C:\Users\Domas\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\DailyPriceNotifier_Decorator.exe
+C:\Users\Domas\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\DailyPriceNotifier_Decorator.pdb
+C:\Users\Domas\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\HtmlAgilityPack.dll
+C:\Users\Domas\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\HtmlAgilityPack.pdb
+C:\Users\Domas\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\HtmlAgilityPack.xml
+C:\Users\Domas\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.csprojResolveAssemblyReference.cache
+C:\Users\Domas\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.Resource.resources
+C:\Users\Domas\Dropbox\Study\Uni\PSP\Programos\PSP2\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.csproj.GenerateResource.Cache
+C:\Users\Domas\Documents\Projects\UniversityApps\Projektavimas\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\bin\Release\DailyPriceNotifier_Decorator.exe.config
+C:\Users\Domas\Documents\Projects\UniversityApps\Projektavimas\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.exe
+C:\Users\Domas\Documents\Projects\UniversityApps\Projektavimas\DailyPriceNotifier_Decorator\DailyPriceNotifier_Decorator\obj\Release\DailyPriceNotifier_Decorator.pdb
