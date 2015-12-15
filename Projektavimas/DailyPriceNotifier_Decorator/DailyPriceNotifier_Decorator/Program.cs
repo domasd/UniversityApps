@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DailyPriceNotifier_Decorator.Notifiers;
 using DailyPriceNotifier_Decorator.PriceGetters;
+using System.Xml.Linq;
 
 namespace DailyPriceNotifier_Decorator
 {
@@ -27,30 +28,27 @@ namespace DailyPriceNotifier_Decorator
             // These links are different eshops
             // Parsers could not work ant throw an exception (or show bad value) if a html code structure changed 
             // Checked on 2015-11-28
-            CommonPricegetter priceGetter = new CommonPricegetter(new Dictionary<Uri, IPriceParser>()
-            {
-                {
-                     new Uri("http://www.technorama.lt/Mobilus-telefonai-ir-navigacijos/Ismanieji-laikrodziai/Ismanusis-laikrodis-Sony-smartwatch-3-SWR50-white.html"),
-                     technoramaParser
-                },
-                {
-                     new Uri("http://www.1a.lt/telefonai_plansetiniai_kompiuteriai/priedai_mobiliems_telefonams/ismanieji_laikrodziai_apyrankes/sony_smartwatch_3_black"),
-                     _1aParser
-                },
-                {
-                     new Uri("http://www.elektromarkt.lt/Foto-Video-GPS-GSM-MP3/Ismanieji-laikrodziai/SWR50-Sony-Smart-Watch-3-ismanusis-laikrodis-black.html"),
-                     elektroParser
-                },
-                {
-                     new Uri("https://www.egnetas.lt/sony-smartwatch-3-swr50-black/kaina"),
-                     egnetasParser
-                },
-                {
-                     new Uri("https://order.omnitel.lt/priedai/sony-smart3-swr50/?color=321"),
-                     omnitelParser
-                }
 
-            }, price);
+            Dictionary<string, IPriceParser> parsers = new Dictionary<string, IPriceParser>()
+            {
+                {nameof(technoramaParser), technoramaParser},
+                {nameof(_1aParser), _1aParser},
+                {nameof(elektroParser), elektroParser},
+                {nameof(egnetasParser), egnetasParser},
+                {nameof(omnitelParser), omnitelParser}
+
+            };
+
+            // Read urls
+            var urlsPath = ConfigurationManager.AppSettings["UrlsPath"];
+
+            XDocument xmlList = XDocument.Load(urlsPath);
+            List<PriceUrl> urisWithParsers = (from m in xmlList.Descendants("Url")
+                select new PriceUrl() {parser = parsers[(string) m.Attribute("Parser")], PriceUri = new Uri(m.Value.Trim('\"'))}).ToList();
+
+            CommonPricegetter priceGetter = new CommonPricegetter(urisWithParsers, price);
+
+
             try
             {
                 priceGetter.CheckPrice();

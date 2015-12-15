@@ -12,7 +12,7 @@ namespace DailyPriceNotifier_Decorator
     {
         public static void Append(string input)
         {
-            File.AppendAllText(ConfigurationManager.AppSettings["LogPath"], $"[{DateTime.Now}]: {input}");
+            File.AppendAllText(ConfigurationManager.AppSettings["LogPath"], Environment.NewLine + $"[{DateTime.Now}]: {input}");
         }
     }
 }

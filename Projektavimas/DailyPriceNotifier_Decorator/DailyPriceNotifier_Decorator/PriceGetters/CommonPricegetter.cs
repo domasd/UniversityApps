@@ -9,11 +9,11 @@ namespace DailyPriceNotifier_Decorator.PriceGetters
     {
         public decimal PriceToCheck { get; set; }
 
-        public Dictionary<Uri, IPriceParser> ProductsUrlList;
+        public IEnumerable<PriceUrl> ProductsUrlList;
 
         private List<string> aboveThePrice = new List<string>();
 
-        public CommonPricegetter(Dictionary<Uri,IPriceParser> products, decimal priceTocheck)
+        public CommonPricegetter(IEnumerable<PriceUrl> products, decimal priceTocheck)
         {
             ProductsUrlList = products;
             PriceToCheck = priceTocheck;
@@ -26,13 +26,13 @@ namespace DailyPriceNotifier_Decorator.PriceGetters
                 client.Encoding = Encoding.UTF8;
                 foreach (var product in ProductsUrlList)
                 {
-                    string htmlCode = client.DownloadString(product.Key);
+                    string htmlCode = client.DownloadString(product.PriceUri);
 
-                    decimal priceRetrieved = product.Value.Parse(htmlCode);
+                    decimal priceRetrieved = product.parser.Parse(htmlCode);
 
                     if (priceRetrieved < PriceToCheck)
                     {
-                        aboveThePrice.Add(string.Format("{0} {1}", product.Key.AbsoluteUri, priceRetrieved));
+                        aboveThePrice.Add(string.Format("{0} {1}", product.PriceUri.AbsoluteUri, priceRetrieved));
                     }
                 }
             }
