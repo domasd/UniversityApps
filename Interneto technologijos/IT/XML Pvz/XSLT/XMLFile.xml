@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="XSLTFile.xslt" type="text/xsl"?>
+
+<Knygynas>
+  <autoriai>
+    <autorius id="a1">
+      <vardas>Jonas</vardas>
+      <pavardė>Jonaitis</pavardė>
+    </autorius>
+    <autorius id="a2">
+      <vardas>Petras</vardas>
+      <pavardė>Petraitis</pavardė>
+    </autorius>
+    <autorius id="a3">
+      <vardas>Antanas</vardas>
+      <pavardė>Antanaitis</pavardė>
+    </autorius>
+    <autorius id="a4">
+      <vardas>Martynas</vardas>
+      <pavardė>Martinkėnas</pavardė>
+    </autorius>
+  </autoriai>
+  <knygos>
+    <grupė rūšis="grožinė">
+      <knyga isbn="12345">
+        <pavadinimas>Raudonkepuraitė</pavadinimas>
+        <autorius ref="a3"/>
+        <kaina>50.5</kaina>
+      </knyga>
+      <knyga isbn="3214">
+        <pavadinimas>Trys ožiukai</pavadinimas>
+        <autorius ref="a4"/>
+        <autorius ref="a3"/>
+        <kaina>75.00</kaina>
+      </knyga>
+    </grupė>
+    <grupė rūšis="mokslinė">
+      <knyga isbn="454654">
+        <pavadinimas>Algebra</pavadinimas>
+        <autorius ref="a1"/>
+        <autorius ref="a4"/>
+        <kaina>75</kaina>
+      </knyga>
+      <knyga isbn="98765436">
+        <pavadinimas>Matematinė analizė</pavadinimas>
+        <autorius ref="a2"/>
+        <autorius ref="a4"/>
+        <autorius ref="a3"/>
+        <kaina>50.50</kaina>
+      </knyga>
+    </grupė>
+  </knygos>
+</Knygynas>

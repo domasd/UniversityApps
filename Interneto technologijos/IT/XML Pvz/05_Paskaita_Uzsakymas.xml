@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"  encoding="UTF-8"?>
+<užsakymas data="2006-02-28">
+  <pristatyti šalis="LT">
+    <vardas>Jonas Jonaitis</vardas>
+    <gatvė>Kalvarijų 5</gatvė>
+    <miestas>Vilnius</miestas>
+    <indeksas> LT-13952</indeksas>
+  </pristatyti>
+  <apmoka šalis="LT">
+    <vardas>Petras Petraitis</vardas>
+    <gatvė>Pylimo 2</gatvė>
+    <miestas>Vilnius</miestas>
+    <indeksas>LT- 13434</indeksas>
+  </apmoka>
+  <pastaba>Dūžtanti prekė</pastaba>
+  <prekiųSąrašas></prekiųSąrašas>
+</užsakymas>

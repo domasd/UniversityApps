@@ -1,0 +1,86 @@
+﻿body {
+    background: url("../background.jpg") no-repeat fixed center;
+    color: #000033;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+input {
+    display: block;
+}
+
+header,h1,h2,h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+/*child*/
+.centered > table {
+     border: 3px solid darkblue;
+     white-space:nowrap;
+     width: 524px;
+}
+
+/*descendant*/
+header p {
+    font-weight: bold;
+}
+
+#filter input {
+    display: inline-block;
+}
+
+
+
+/*attribute*/
+div[control-group] {
+    border: 3px;
+    border-radius: 10px;
+    border-color: darkblue;
+    border-style: solid;
+    margin: 10px;
+}
+
+/*class*/
+.control {
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+}
+
+/*id*/
+#allFlights .soon {
+     background: linear-gradient(#ff3333, #ff3330);
+     background: -moz-linear-gradient(#ff3333,  #ff3330);
+}
+
+/*inherit*/
+table tr {
+    background: #5dd5d5;
+}
+
+table thead {
+    background: #139999;
+}
+
+thead>tr {
+    background: inherit;
+}
+
+/*important*/
+th {
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3) !important;
+}
+
+/*media rule*/
+@media screen and (max-width: 680px) {
+  .centered > table {
+     font-size: 12px;
+      width: 395px;
+    }
+}
+

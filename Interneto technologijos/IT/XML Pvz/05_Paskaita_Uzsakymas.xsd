@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:simpleType name="MiestoTipas">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="40"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:element name="užsakymas" type="UžsakymoTipas" />
+  
+  <xs:complexType name="UžsakymoTipas">
+    <xs:sequence>
+      <xs:element name="pristatyti" type="AdresoTipas" />
+      <xs:element name="apmoka" type="AdresoTipas" />
+      <xs:element name="pastaba" type="xs:string" minOccurs="0" />
+      <xs:element name="prekiųSąrašas" type="xs:anyType" />
+    </xs:sequence>
+    <xs:attribute name="data" type="xs:date" />
+  </xs:complexType>
+  
+  <xs:complexType name="AdresoTipas">
+    <xs:sequence>
+      <xs:element name="vardas"   type="xs:string"/>
+      <xs:element name="gatvė" type="xs:string"/>
+      <xs:element name="miestas"  type="MiestoTipas"/>
+      <xs:element name="indeksas" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="šalis" type="xs:string" fixed="LT"/>
+  </xs:complexType>
+  
+
+
+</xs:schema>

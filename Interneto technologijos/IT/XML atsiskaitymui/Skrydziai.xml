@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<OroUostai xmlns='http://dziaugys.com/orouostai'
+           xmlns:ai='http://airports.lt/xml'>
+  <OroUostas pavadinimas ="Vilniaus tarptautinis oro uostas" kodas = "VNO" >
+    <skrydis>
+      <bendrove>AIR BALTIC</bendrove>
+      <ai:bendrove>
+        <pavadinimas>
+          AIR BALTIC
+        </pavadinimas>
+        <salis>
+          Latvija
+        </salis>
+      </ai:bendrove>
+      <tikslas pavadinimas="Kauno oro uostas" Kodas = "KUN"/>
+      <kaina>
+        <Eur>100</Eur>
+        <Lt>345.28</Lt>
+      </kaina>
+      <lektuvas vietos="100">
+        <pavadinimas> AIRBUS A200 </pavadinimas>
+      </lektuvas>
+      <data>
+        <pakilimo>2015-10-10</pakilimo>
+        <nusileidimo>2015-10-10</nusileidimo>
+      </data>
+      <laikas>
+        <pakilimo>11:40</pakilimo>
+        <nusileidimo>12:10</nusileidimo>
+      </laikas>
+      <trukme>30</trukme>
+    </skrydis>
+    <skrydis>
+      <bendrove>RYANAIR</bendrove>
+      <ai:bendrove>
+        <pavadinimas>
+          RYANAIR
+        </pavadinimas>
+        <salis>
+          Airija
+        </salis>
+      </ai:bendrove>
+      <tikslas pavadinimas="Copenhagen Airport" Kodas = "CPH"/>
+      <kaina>
+        <Eur>18</Eur>
+      </kaina>
+      <lektuvas vietos="150">
+        <pavadinimas> BOEING 737 </pavadinimas>
+      </lektuvas>
+      <data>
+        <pakilimo>2015-10-11</pakilimo>
+        <nusileidimo>2015-10-11</nusileidimo>
+      </data>
+      <laikas>
+        <pakilimo>11:00</pakilimo>
+        <nusileidimo>12:00</nusileidimo>
+      </laikas>
+      <trukme>60</trukme>
+    </skrydis>
+    <skrydis>
+      <bendrove>RYANAIR</bendrove>
+      <ai:bendrove>
+        <pavadinimas>
+          RYANAIR
+        </pavadinimas>
+        <salis>
+          Airija
+        </salis>
+      </ai:bendrove>
+      <tikslas pavadinimas="London Stansted Airport" Kodas = "STD"/>
+      <kaina>
+        <Eur>30</Eur>
+      </kaina>
+      <lektuvas vietos="150">
+        <pavadinimas> BOEING 737 </pavadinimas>
+      </lektuvas>
+      <data>
+        <pakilimo>2015-10-09</pakilimo>
+        <nusileidimo>2015-10-09</nusileidimo>
+      </data>
+      <laikas>
+        <pakilimo>06:00</pakilimo>
+        <nusileidimo>07:00</nusileidimo>
+      </laikas>
+      <trukme>60</trukme>
+    </skrydis>
+    <skrydis>
+      <bendrove>Turkish airlines</bendrove>
+      <ai:bendrove>
+        <pavadinimas>
+          Turkish airlines
+        </pavadinimas>
+        <salis>
+          Turkija
+        </salis>
+      </ai:bendrove>
+      <tikslas pavadinimas="John F. Kennedy Airport" Kodas = "JFK"/>
+      <kaina>
+        <Eur>700</Eur>
+      </kaina>
+      <lektuvas vietos="400">
+        <pavadinimas> Boeing 747-8 </pavadinimas>
+      </lektuvas>
+      <data>
+        <pakilimo>2015-11-10</pakilimo>
+        <nusileidimo>2015-11-11</nusileidimo>
+      </data>
+      <laikas>
+        <pakilimo>11:40</pakilimo>
+        <nusileidimo>11:40</nusileidimo>
+      </laikas>
+      <trukme>1440</trukme>
+    </skrydis>
+  </OroUostas>
+  <OroUostas pavadinimas ="Kauno oro uostas" kodas = "KUN" >
+    <skrydis>
+      <bendrove>Ukraine international airlines</bendrove>
+      <ai:bendrove>
+        <pavadinimas>
+          Ukraine international airlines
+        </pavadinimas>
+        <salis>
+          Ukraina
+        </salis>
+      </ai:bendrove>
+      <tikslas pavadinimas="Kievas" Kodas = "KBP"/>
+      <kaina>
+        <Eur>50</Eur>
+        <Lt>172.5</Lt>
+      </kaina>
+      <lektuvas vietos="100">
+        <pavadinimas> AIRBUS A200 </pavadinimas>
+      </lektuvas>
+      <data>
+        <pakilimo>2015-10-12</pakilimo>
+        <nusileidimo>2015-10-12</nusileidimo>
+      </data>
+      <laikas>
+        <pakilimo>20:00</pakilimo>
+        <nusileidimo>22:00</nusileidimo>
+      </laikas>
+      <trukme>120</trukme>
+    </skrydis>
+  </OroUostas>
+</OroUostai>
+

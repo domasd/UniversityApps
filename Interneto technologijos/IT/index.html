@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Flight app</title>
+    <link href="Styles/custom.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="centered">
+        <header>
+            <div>
+                <p>Visi skrydžiai</p>
+            </div>
+        </header>
+
+        <table id="allFlights">
+            <thead>
+            <tr>
+                <th>
+                    Skrydžio kodas
+                </th>
+                <th>
+                    IŠ
+                </th>
+                <th>
+                    Į
+                </th>
+                <th>
+                    Išvykimo laikas
+                </th>
+                <th>
+                    Atvykimo laikas
+                </th>
+                <th>
+                    Kaina
+                </th>
+            </tr>
+            </thead>
+            <tbody id="allFlightsTableBody"></tbody>
+        </table>
+
+        <Form id="filter">
+            Iki <input type="text" id="numberOfDays"/> dienų.
+            Iki <input type="text" id="dateTill" /> datos.
+            <button type="submit">Filtruoti</button>
+        </Form>
+
+
+            <h2>ieškoti pagal skrydžio kodą, arba oro uosto kodą</h2>
+
+
+            <Form id="search">
+                <div control-group>
+                    <div class="control">
+                        <label>
+                            Skrydžio kodas:
+                        </label>
+                        <input type="text" id="flightCode" size="5" />
+                    </div>
+
+                    <div class="control">
+                        <label>
+                            Iš oro uosto kodas:
+                        </label>
+                        <input type="text" id="airportFromCode" size="5" />
+                    </div>
+
+                    <div class="control">
+                        <label>
+                            Į oro uosto kodas:
+                        </label>
+                        <input type="text" id="airportToCode" size="5" />
+                    </div>
+                </div>
+
+                <button type="submit">Ieškoti</button>
+            </Form>
+
+
+            <table id="SearchTable">
+                <thead>
+                    <tr>
+                        <th>
+                            Skrydžio kodas
+                        </th>
+                        <th>
+                            Iš
+                        </th>
+                        <th>
+                            Į
+                        </th>
+                        <th>
+                            Išvykimo laikas
+                        </th>
+                        <th>
+                            Atvykimo laikas
+                        </th>
+                        <th style="text-shadow: 2px 2px #ffffff;">
+                            Kaina
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="SearchTableBody"></tbody>
+            </table>
+
+</div>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script src="Scripts/custom.js"></script>
+
+</body>
+</html>

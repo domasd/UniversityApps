@@ -1,0 +1,77 @@
+﻿<!--1-->
+<!--/OroUostai/OroUostas[1]/skrydis[2]/-->
+
+<!--ancestor-->
+<!--/OroUostai/OroUostas[1]/skrydis[2]/ancestor::*/attribute::pavadinimas-->
+
+<!--descendant-->
+<!--/OroUostai/OroUostas[1]/skrydis[2]/descendant::tikslas/@pavadinimas-->
+
+<!--following-sibling-->
+<!--/OroUostai/OroUostas[1]/skrydis[2]/following-sibling::*[1]/child::tikslas/@pavadinimas-->
+
+<!--preceding-sibling-->
+<!--/OroUostai/OroUostas[1]/skrydis[2]/preceding-sibling::*/child::kaina/Eur/text()-->
+
+<!--following-->
+<!--/OroUostai/OroUostas[1]/skrydis[2]/following::*/tikslas/@pavadinimas-->
+
+<!--preceding-->
+<!--/OroUostai/OroUostas[1]/skrydis[2]/preceding::*/salis/text()-->
+
+<!--attribute-->
+<!--/OroUostai/OroUostas[1]/skrydis[2]/child::lektuvas/attribute::vietos-->
+
+
+
+<!--2-->
+<!--Surasti visus skrydzius (skrydziu zimes), kurie yra pigesni uz einamaji-->
+<!--//skrydis/kaina[Eur > (//skrydis[position() = 1])[1]/kaina/Eur]/parent::*/tikslas/@pavadinimas-->
+
+<!--3-->
+
+<!--visu kainu suma-->
+<!--sum(//skrydis/kaina/Eur)-->
+
+<!--kiek yra skrydziu su bendrove RYANAIR-->
+<!--count(//skrydis[bendrove="RYANAIR"])-->
+
+<!--sum(//*) grazina 28, nes imant pirma zyme, jis grazina ja paversta i string o poto i number, o pavertus i string gauname 23-->
+
+
+<!--4-->
+<!--tikrina pirmu oro uostu skrydziu kainas su pirmo oro uosto antru skrydziu (tik su skaiciais)--> 
+<!--//skrydis[1]/kaina/Eur > //skrydis[2]/kaina/Eur-->
+<!--//skrydis[1]/kaina/Eur = //skrydis[2]/kaina/Eur-->
+
+<!--//skrydis[3]/data/pakilimo > //skrydis[2]/data/pakilimo-->
+
+<!--rezultatas 150 nes imamas pirmas aibes elementas-->
+<!--//OroUostas[1]/skrydis/trukme + //OroUostas[2]/skrydis/trukme--> 
+
+<!--5-->
+
+<!--//OroUostas/skrydis/tikslas[@pavadinimas="Copenhagen Airport"]/parent::*/preceding-sibling::*/tikslas/attribute::pavadinimas-->
+    
+<!--6-->
+
+<!--skaicius = aibe-->
+<!--//skrydis/trukme = //skrydis[2]/trukme-->
+
+<!--aibe = stringas-->
+<!--//skrydis[1]/following::lektuvas/pavadinimas  = //skrydis[1]/lektuvas/pavadinimas-->
+
+<!--aibe = logine reiksme-->
+<!--//skrydis[1]/following::lektuvas/pavadinimas  = false() -->
+
+<!--aibe = aibe-->
+<!--//OroUostas/@pavadinimas = //tikslas/@pavadinimas-->
+
+
+
+<!--7-->
+<!--//Eur < //trukme-->
+
+
+<!--isrinkti skrydzius kuriu kaina butu kaip pirmo skrydzio bet be pirmo skrydzio-->
+<!--//Eur[.= (//OroUostas[1]/skrydis[1]//Eur) and not(./ancestor::*/tikslas/@pavadinimas = "Kauno oro uostas")]/ancestor::*/skrydis-->

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace='http://dziaugys.com/orouostai' xmlns:p='http://dziaugys.com/orouostai' elementFormDefault="qualified">
+
+  <xs:annotation>
+    <xs:documentation>
+      Ši xml schema yra skirta tikrinti skrydžių xml teisingumą ir korektiškumą.
+    </xs:documentation>
+  </xs:annotation>
+
+  <xs:element name="OroUostai" type="p:OroUostaiTipas">
+    <!--8 reikalavimas-->
+    
+    <xs:key name="OroUostoRaktas">
+      <xs:selector xpath="p:OroUostas"/>
+      <xs:field xpath="@kodas"/>
+    </xs:key>
+    
+    <xs:keyref name="NuorodaIOroUosta" refer="p:OroUostoRaktas">
+      <xs:selector xpath="p:OroUostas/p:skrydis/p:tikslas"/>
+      <xs:field xpath="@kodas"/>
+    </xs:keyref>
+    
+  </xs:element>
+
+
+  <xs:complexType name="OroUostaiTipas">
+    <xs:sequence>
+      <xs:element name="OroUostas" type="p:OroUostasTipas" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="OroUostasTipas">
+    <xs:sequence>
+      <xs:element name="skrydis" type="p:skrydisTipas" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="p:oroUostasAttributes"/>
+  </xs:complexType>
+
+  <xs:complexType name="skrydisTipas">
+    <xs:all minOccurs="1">
+      <xs:element name="bendrove" type="xs:string"/>
+      <xs:element name="tikslas">
+        <xs:complexType>
+          <xs:attributeGroup ref="p:oroUostasAttributes"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="kaina" type="p:kainaTipas"/>
+      <xs:element name="lektuvas" type="p:lektuvasTipas"/>
+      <xs:element name="data" type="p:skrydzioLaikasDataSuDienuSkTipas"/>
+      <xs:element name="laikas" type="p:skrydzioLaikasValandosTipas"/>
+      <xs:element name="trukme" type="xs:integer"/>
+      <xs:element name="kalbos" minOccurs="0">
+        <!--2 reikalavimas-->
+        <xs:simpleType>
+          <xs:list itemType='xs:language'/>
+        </xs:simpleType>
+      </xs:element>
+
+    </xs:all>
+  </xs:complexType>
+
+  <!--4 reikalavimas-->
+  <xs:complexType name='skrydzioLaikasTipas' mixed='true'>
+    <xs:sequence minOccurs='1'>
+      <xs:element name='pakilimo' type='xs:string'/>
+      <xs:element name='nusileidimo' type='xs:string'/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name='skrydzioLaikasDataTipas' mixed='false'>
+    <xs:complexContent>
+      <xs:restriction base='p:skrydzioLaikasTipas'>
+        <xs:sequence>
+          <xs:element name='pakilimo'>
+            <xs:simpleType>
+              <xs:restriction base='xs:string'>
+                <xs:pattern value='[0-9]{4}-[0-9]{2}-[0-9]{2}'/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+          <xs:element name='nusileidimo'>
+            <xs:simpleType>
+              <xs:restriction base='xs:string'>
+                <xs:pattern value='[0-9]{4}-[0-9]{2}-[0-9]{2}'/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+        </xs:sequence>
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <!--6 reikalavimas-->
+  <xs:complexType name='skrydzioLaikasValandosTipas' mixed='true'>
+    <xs:complexContent>
+      <xs:restriction base='p:skrydzioLaikasTipas'>
+        <xs:sequence>
+          <xs:element name='pakilimo'>
+            <xs:simpleType>
+              <xs:restriction base='xs:string'>
+                <xs:pattern value='[0-9]{2}:[0-9]{2}'/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+          <xs:element name='nusileidimo'>
+            <xs:simpleType>
+              <xs:restriction base='xs:string'>
+                <xs:pattern value='[0-9]{2}:[0-9]{2}'/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+        </xs:sequence>
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name='skrydzioLaikasDataSuDienuSkTipas' mixed='false'>
+    <xs:complexContent>
+      <xs:extension base='p:skrydzioLaikasDataTipas'>
+        <xs:attribute name='dienuSk' type='xs:integer' use='optional'/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+
+
+
+  <!--3 reikalavimas-->
+  <xs:simpleType name="galiaTipas">
+    <xs:restriction base="xs:integer">
+      <xs:minExclusive value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="galiaSuMatVntTipas">
+    <xs:simpleContent>
+      <xs:extension base="p:galiaTipas">
+        <xs:attribute name="matVnt" type="xs:string"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="galieRealistiskaSuMatVntTipas">
+    <xs:simpleContent>
+      <xs:restriction base="p:galiaSuMatVntTipas">
+        <xs:maxInclusive value="50000"/>
+        <xs:fractionDigits value="0"/>
+      </xs:restriction>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="aptarvimasTipas">
+    <xs:choice>
+      <xs:element name="bendroveIrData">
+        <xs:complexType>
+          <xs:all>
+            <xs:element name="bendrove" type="xs:string"/>
+            <xs:element name="data" type="xs:date"/>
+          </xs:all>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="bendrove" type="xs:string"/>
+    </xs:choice>
+  </xs:complexType>
+
+  <xs:complexType name="lektuvasTipas">
+    <xs:all>
+      <xs:element name ="pavadinimas" type="xs:string"/>
+      <xs:element name="galia" type="p:galieRealistiskaSuMatVntTipas"/>
+      <!--7 reikalavimas-->
+      <xs:element name="aptarnavimas" minOccurs="0" type="p:aptarvimasTipas"/>
+    </xs:all>
+    <xs:attribute name="vietos" type="xs:integer"/>
+  </xs:complexType>
+
+  <xs:complexType name="kainaTipas">
+    <xs:all>
+      <xs:element name="Eur" type="xs:decimal"/>
+      <xs:element name="Lt" type="xs:decimal" minOccurs="0"/>
+    </xs:all>
+  </xs:complexType>
+
+  <!--1 reikalavimas-->
+  <xs:simpleType name ="kodasTipas">
+    <xs:restriction base ="xs:string">
+      <xs:pattern value="[A-Z]{3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:attributeGroup name="oroUostasAttributes">
+    <xs:attribute name="pavadinimas" type="xs:string" use="required"/>
+    <xs:attribute name="kodas" type="p:kodasTipas"  use="required"/>
+  </xs:attributeGroup>
+
+  <xs:attribute name="pavadinimas" type="xs:string"/>
+
+</xs:schema>
