@@ -28,10 +28,10 @@ Originally - "A c++ desktop application for managing items in different warehous
 - Configurable through app.config
 
 ## Diagrams (might be slightly different from current code base):
-![uml diagram](/../master/C++/UML.png)
-![uml diagram](/../master/C++/GenerateReport_ActivityDiagram.png)
-![uml diagram](/../master/C++/GenerateReport_SequenceDiagram.png)
-![uml diagram](/../master/C++/UseCase.png)
+![uml diagram](/../master/Cpp/UML.png)
+![uml diagram](/../master/Cpp/GenerateReport_ActivityDiagram.png)
+![uml diagram](/../master/Cpp/GenerateReport_SequenceDiagram.png)
+![uml diagram](/../master/Cpp/UseCase.png)
 
 ## Documentation
 Built on doxygen.
