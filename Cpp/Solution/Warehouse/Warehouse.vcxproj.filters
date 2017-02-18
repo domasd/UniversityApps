@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Business">
+      <UniqueIdentifier>{943eeb02-c6a0-4350-be77-77b582caef72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataAccess">
+      <UniqueIdentifier>{6268ab05-4a88-4752-94fa-ec4ef0d96bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Business">
+      <UniqueIdentifier>{b5162894-47ed-4cd5-a5e3-e9961c4fb29c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataAccess">
+      <UniqueIdentifier>{416f475b-144d-4f76-a43a-ea08b0d4f48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{9b71680f-47a2-44b0-acbe-40b1f2d0c9d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{37b7bdf3-29a8-4f21-b74c-817be1969542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helper">
+      <UniqueIdentifier>{cf8358f6-9ac2-4954-8e61-76ac9396d7bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helper">
+      <UniqueIdentifier>{736a309d-facb-4733-b030-dbb6817a222d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Business\PrivateImplementations">
+      <UniqueIdentifier>{cb292afb-1fd5-4255-8a2d-65cd8aa52079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Libs">
+      <UniqueIdentifier>{923cf954-f6c2-426d-86ce-53da8ee43d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Business\Report">
+      <UniqueIdentifier>{1e0b2839-3f67-49b6-9b06-0554bbf1c275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Business\Report">
+      <UniqueIdentifier>{6997c76e-bb52-4bc7-b00a-be39f16ea5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions">
+      <UniqueIdentifier>{d069b104-d396-4fe0-a164-a947215e6262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{006f9ad4-11a3-479a-bfb8-2374185ba847}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDataWarehouseDao.h">
+      <Filter>Header Files\DataAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Warehouse.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleOutputHelper.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Category.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Rack.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.hpp">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWriter.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DateHelper.hpp">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidationHelper.hpp">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="CategoryImpl.hpp">
+      <Filter>Header Files\Business\PrivateImplementations</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemImpl.hpp">
+      <Filter>Header Files\Business\PrivateImplementations</Filter>
+    </ClInclude>
+    <ClInclude Include="RackImpl.hpp">
+      <Filter>Header Files\Business\PrivateImplementations</Filter>
+    </ClInclude>
+    <ClInclude Include="WarehouseImpl.hpp">
+      <Filter>Header Files\Business\PrivateImplementations</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigurationObject.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DaoFactory.h">
+      <Filter>Header Files\DataAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="IWarehouseDao.h">
+      <Filter>Header Files\DataAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectionHelperForType.hpp">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="RackIterator.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Comparers.hpp">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Report.h">
+      <Filter>Header Files\Business\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="IReportsBuilder.h">
+      <Filter>Header Files\Business\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportsBuilder.h">
+      <Filter>Header Files\Business\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportNotGeneratedException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportGenerationException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="WarehouseNotSufficientForReportException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ElectronicItem.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseWarehouseDao.h">
+      <Filter>Header Files\DataAccess</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Warehouse.cpp">
+      <Filter>Source Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDataWarehouseDao.cpp">
+      <Filter>Source Files\DataAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleOutputHelper.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Category.cpp">
+      <Filter>Source Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="Rack.cpp">
+      <Filter>Source Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWriter.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="WarehouseRunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamOperatorOverloads.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml-1.7\src\pugixml.cpp">
+      <Filter>Source Files\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigurationObject.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="RackIterator.cpp">
+      <Filter>Source Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="Report.cpp">
+      <Filter>Source Files\Business\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportsBuilder.cpp">
+      <Filter>Source Files\Business\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="DaoFactory.cpp">
+      <Filter>Source Files\DataAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportNotGeneratedException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportGenerationException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="WarehouseNotSufficientForReportException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ElectronicItem.cpp">
+      <Filter>Source Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="DatabaseWarehouseDao.cpp">
+      <Filter>Source Files\DataAccess</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+</Project>
